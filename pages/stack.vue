@@ -61,14 +61,6 @@
         </div>
       </div>
       <div class="row-3 row">
-        <div class="intellij app">
-          <img class="logo" src="../assets/app.png" />
-          <p class="name">IntelliJ Community</p>
-          <div class="tags">
-            <span class="tag">Editor</span>
-            <span class="tag">Development</span>
-          </div>
-        </div>
         <div class="twitter app">
           <img class="logo" src="../assets/app.png" />
           <p class="name">Twitter</p>
@@ -81,6 +73,14 @@
           <p class="name">Apple Music</p>
           <div class="tags">
             <span class="tag">Music</span>
+          </div>
+        </div>
+        <div class="intellij app">
+          <img class="logo" src="../assets/app.png" />
+          <p class="name">IntelliJ Community</p>
+          <div class="tags">
+            <span class="tag">Editor</span>
+            <span class="tag">Development</span>
           </div>
         </div>
       </div>
@@ -174,6 +174,7 @@
   place-items: center;
   margin-top: 20px;
   white-space: nowrap;
+  justify-content: center;
 }
 
 .flowlauncher .tags {
@@ -206,6 +207,44 @@
 
 .terminal .tags {
   grid-template-columns: 89px 116px;
+}
+
+.flowlauncher {
+  width: 400px;
+}
+
+.firefox,
+.apps .twitter {
+  width: 200px;
+}
+
+.discord {
+  width: 270px;
+}
+
+.bitwarden {
+  width: 320px;
+}
+
+.vscode {
+  width: 300px;
+}
+
+.lunacy {
+  width: 250px;
+}
+
+.intellij {
+  width: 380px;
+}
+
+.applemusic {
+  width: 290px;
+}
+
+.vercel,
+.terminal {
+  width: 442.5px;
 }
 
 .name {
