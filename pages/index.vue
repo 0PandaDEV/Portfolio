@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <h1>Home</h1>
+    <h1>PandaDEV</h1>
     <navbar />
   </div>
 </template>
@@ -37,9 +37,11 @@ body {
 
 .content {
   display: flex;
-  max-width: 1200px;
+  max-width: 900px;
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
+  padding: 50px 20px;
+  flex-direction: column;
+  text-align: left;
 }
 </style>
