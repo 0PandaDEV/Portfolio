@@ -1,8 +1,8 @@
 <template>
   <div class="navbar">
     <nuxt-link to="/">
-      <div class="home icon selected">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <div class="home icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="#303030" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M9.02 2.84004L3.63 7.04004C2.73 7.74004 2 9.23004 2 10.36V17.77C2 20.09 3.89 21.99 6.21 21.99H17.79C20.11 21.99 22 20.09 22 17.78V10.5C22 9.29004 21.19 7.74004 20.2 7.05004L14.02 2.72004C12.62 1.74004 10.37 1.79004 9.02 2.84004Z"
             stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -11,8 +11,8 @@
       </div>
     </nuxt-link>
     <nuxt-link to="/projects">
-      <div class="projects icon">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="#303030" xmlns="http://www.w3.org/2000/svg">
+      <div class="projects icon selected">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M20 8.25V18C20 21 18.21 22 16 22H8C5.79 22 4 21 4 18V8.25C4 5 5.79 4.25 8 4.25C8 4.87 8.24997 5.43 8.65997 5.84C9.06997 6.25 9.63 6.5 10.25 6.5H13.75C14.99 6.5 16 5.49 16 4.25C18.21 4.25 20 5 20 8.25Z"
             stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -70,72 +70,4 @@
 <script>
 </script>
 
-<style>
-* {
-  margin: 0px;
-  padding: 0px;
-  scroll-behavior: smooth;
-  scrollbar-width: thin;
-  scrollbar-color: #444446 #171618;
-  box-sizing: border-box;
-  font-family: Inter !important;
-}
-
-
-.navbar {
-  z-index: 100;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  bottom: 50px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  -moz-backdrop-filter: blur(10px);
-  -o-backdrop-filter: blur(10px);
-  background-color: hsla(270, 7%, 11%, 0.4);
-  padding: 5px 5px;
-  border-radius: 24px;
-  flex-direction: row;
-  border: 1px solid rgba(49, 49, 49, 0.68);
-  height: 70px;
-  width: 390px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
-}
-
-.icon {
-  width: 52px;
-  height: 52px;
-  padding: 13px 13px;
-}
-
-.icon:hover:not(.selected) {
-  background-color: #2726299a;
-  border-radius: 18px;
-  transition: background-color 0.2s;
-}
-
-.icon {
-  margin-right: 10px;
-}
-
-.github {
-  margin-right: 0px;
-  padding: 15px 14px;
-}
-
-.divider {
-  margin-right: 10px;
-  background-color: rgba(49, 49, 49, 0.68);
-  width: 1px;
-  height: 40px;
-}
-
-.selected {
-  background-color: hsl(263, 73%, 56%);
-  border-radius: 18px;
-  color: #303030;
-}
-</style>
+<style></style>
