@@ -12,7 +12,8 @@
     ".gitignore": true,
     "node_modules": true,
     ".nuxt": true,
-    "tsconfig.json": true
+    "tsconfig.json": true,
+    "favicon.ico": true
   },
   "hide-files.files": [
     ".vscode",
@@ -21,7 +22,8 @@
     ".gitignore",
     "node_modules",
     ".nuxt",
-    "tsconfig.json"
+    "tsconfig.json",
+    "favicon.ico"
   ],
   "nuxt.isNuxtApp": false
 }
