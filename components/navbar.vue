@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-  <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
-
-  <title>PandaDEV</title>
-</head>
-
-<body>
+<template>
   <div class="navbar">
     <div class="home icon selected">
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,21 +59,62 @@
       </svg>
     </div>
   </div>
-  <h1>
-    hjdfghjklsdghjkl
-    sdfgklhhjklasdfglkjsdfgäl
-    ksdfvolnsaerägoi
-    seärgvoias
-    e4rfgoijaerf90p8
-    34noedfv90f3ji9234'8
-    90wecm90'34fctm
-    '70234fc9078
-    4589345v 02895
-    tq34895 234t 9'8fg nq3
-    4510'9rv 9'78g w34 wp
-    09prgm'as 0f g'90s7erfg8m9
-    0'w34v 8m90
-  </h1>
-</body>
+</template>
 
-</html>
+<script setup>
+</script>
+
+<style>
+@import '../universal.css';
+
+.navbar {
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  bottom: 50px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+  background-color: #1c1a1eb0;
+  padding: 5px 5px;
+  border-radius: 20px;
+  flex-direction: row;
+  border: 1px solid rgba(49, 49, 49, 0.68);
+  height: 60px;
+  width: 338px;
+}
+
+.icon {
+  width: 46px;
+  height: 46px;
+  padding: 10px 10px;
+}
+
+.icon:hover:not(.selected) {
+  background-color: #2726299a;
+  border-radius: 15px;
+  transition: background-color 0.2s;
+}
+
+.icon:not(:last-of-type) {
+  margin-right: 8px;
+}
+
+.divider {
+  margin-right: 8px;
+  background-color: rgba(49, 49, 49, 0.68);
+  width: 1px;
+  height: 40px;
+}
+
+.selected {
+  background-color: hsl(263, 73%, 56%);
+  border-radius: 15px;
+  color: #303030;
+}
+</style>

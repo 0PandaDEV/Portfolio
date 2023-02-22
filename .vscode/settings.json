@@ -1,0 +1,25 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".vscode": true,
+    "yarn.lock": true,
+    ".npmrc": true,
+    ".gitignore": true,
+    "node_modules": true,
+    ".nuxt": true
+  },
+  "hide-files.files": [
+    ".vscode",
+    "yarn.lock",
+    ".npmrc",
+    ".gitignore",
+    "node_modules",
+    ".nuxt"
+  ],
+  "nuxt.isNuxtApp": false
+}
