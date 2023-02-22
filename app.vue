@@ -1,12 +1,10 @@
 <template>
   <div>
-    asd
     <navbar />
   </div>
 </template>
 
-<script setup lang="ts">
-
+<script setup>
 </script>
 
 <style>

@@ -11,7 +11,8 @@
     ".npmrc": true,
     ".gitignore": true,
     "node_modules": true,
-    ".nuxt": true
+    ".nuxt": true,
+    "tsconfig.json": true
   },
   "hide-files.files": [
     ".vscode",
@@ -19,7 +20,8 @@
     ".npmrc",
     ".gitignore",
     "node_modules",
-    ".nuxt"
+    ".nuxt",
+    "tsconfig.json"
   ],
   "nuxt.isNuxtApp": false
 }
