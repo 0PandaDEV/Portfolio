@@ -43,7 +43,7 @@
       <div class="row-2 row">
         <div class="bitwarden app">
           <div class="img">
-            <img class="logo" src="../assets/app.png" />
+            <img class="logo" src="../assets/bitwarden.png" />
           </div>
           <p class="name">Bitwarden</p>
           <div class="tags">
@@ -75,7 +75,7 @@
       <div class="row-3 row">
         <div class="twitter app">
           <div class="img">
-            <img class="logo" src="../assets/app.png" />
+            <img class="logo" src="../assets/twitter.png" />
           </div>
           <p class="name">Twitter</p>
           <div class="tags">
@@ -84,7 +84,7 @@
         </div>
         <div class="applemusic app">
           <div class="img">
-            <img class="logo" src="../assets/app.png" />
+            <img class="logo" src="../assets/applemusic.png" />
           </div>
           <p class="name">Apple Music</p>
           <div class="tags">
@@ -93,7 +93,7 @@
         </div>
         <div class="intellij app">
           <div class="img">
-            <img class="logo" src="../assets/app.png" />
+            <img class="logo" src="../assets/intellij.png" />
           </div>
           <p class="name">IntelliJ Community</p>
           <div class="tags">
@@ -105,7 +105,7 @@
       <div class="row-4 row">
         <div class="vercel app">
           <div class="img">
-            <img class="logo" src="../assets/app.png" />
+            <img class="logo" src="../assets/vercel.png" />
           </div>
           <p class="name">Vercel</p>
           <div class="tags">
