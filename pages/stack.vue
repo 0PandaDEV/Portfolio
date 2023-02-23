@@ -10,7 +10,9 @@
     <div class="apps">
       <div class="row-1 row">
         <div class="flowlauncher app">
-          <img class="logo" src="../assets/app.png" />
+          <div class="img">
+            <img class="logo" src="flowlauncher.png" />
+          </div>
           <p class="name">Flow Launcher</p>
           <div class="tags">
             <span class="tag">Launcher</span>
@@ -19,14 +21,18 @@
           </div>
         </div>
         <div class="firefox app">
-          <img class="logo" src="../assets/app.png" />
+          <div class="img">
+            <img class="logo" src="firefox.png" />
+          </div>
           <p class="name">Firefox</p>
           <div class="tags">
             <span class="tag">Browser</span>
           </div>
         </div>
         <div class="discord app">
-          <img class="logo" src="../assets/app.png" />
+          <div class="img">
+            <img class="logo" src="discord.png" />
+          </div>
           <p class="name">Discord</p>
           <div class="tags">
             <span class="tag">Social</span>
@@ -36,7 +42,9 @@
       </div>
       <div class="row-2 row">
         <div class="bitwarden app">
-          <img class="logo" src="../assets/app.png" />
+          <div class="img">
+            <img class="logo" src="app.png" />
+          </div>
           <p class="name">Bitwarden</p>
           <div class="tags">
             <span class="tag">Password Manager</span>
@@ -44,7 +52,9 @@
           </div>
         </div>
         <div class="vscode app">
-          <img class="logo" src="../assets/app.png" />
+          <div class="img">
+            <img class="logo" src="app.png" />
+          </div>
           <p class="name">VS Code</p>
           <div class="tags">
             <span class="tag">Editor</span>
@@ -52,7 +62,9 @@
           </div>
         </div>
         <div class="lunacy app">
-          <img class="logo" src="../assets/app.png" />
+          <div class="img">
+            <img class="logo" src="app.png" />
+          </div>
           <p class="name">Lunacy</p>
           <div class="tags">
             <span class="tag">Design</span>
@@ -62,21 +74,27 @@
       </div>
       <div class="row-3 row">
         <div class="twitter app">
-          <img class="logo" src="../assets/app.png" />
+          <div class="img">
+            <img class="logo" src="app.png" />
+          </div>
           <p class="name">Twitter</p>
           <div class="tags">
             <span class="tag">Social</span>
           </div>
         </div>
         <div class="applemusic app">
-          <img class="logo" src="../assets/app.png" />
+          <div class="img">
+            <img class="logo" src="app.png" />
+          </div>
           <p class="name">Apple Music</p>
           <div class="tags">
             <span class="tag">Music</span>
           </div>
         </div>
         <div class="intellij app">
-          <img class="logo" src="../assets/app.png" />
+          <div class="img">
+            <img class="logo" src="app.png" />
+          </div>
           <p class="name">IntelliJ Community</p>
           <div class="tags">
             <span class="tag">Editor</span>
@@ -86,7 +104,9 @@
       </div>
       <div class="row-4 row">
         <div class="vercel app">
-          <img class="logo" src="../assets/app.png" />
+          <div class="img">
+            <img class="logo" src="app.png" />
+          </div>
           <p class="name">Vercel</p>
           <div class="tags">
             <span class="tag">Hosting</span>
@@ -94,7 +114,9 @@
           </div>
         </div>
         <div class="terminal app">
-          <img class="logo" src="../assets/app.png" />
+          <div class="img">
+            <img class="logo" src="app.png" />
+          </div>
           <p class="name">Windows Terminal</p>
           <div class="tags">
             <span class="tag">Terminal</span>
@@ -133,6 +155,16 @@
   width: auto;
   height: 200px;
   padding: 20px 20px;
+}
+
+.img {
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  display: flex;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
 }
 
 .apps {
@@ -252,4 +284,6 @@
   font-weight: 500;
   font-size: 19px;
 }
+
+@keyframes test {}
 </style>

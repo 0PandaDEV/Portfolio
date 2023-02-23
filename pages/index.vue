@@ -26,13 +26,14 @@
 }
 
 body {
-  background: #171618;
+  background: rgb(23, 22, 24);
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
   color: white;
   justify-content: center;
   align-items: center;
   display: flex;
+  overflow-y: scroll;
 }
 
 .content {
