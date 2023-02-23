@@ -11,7 +11,7 @@
       <div class="row-1 row">
         <div class="flowlauncher app">
           <div class="img">
-            <img class="logo" src="flowlauncher.png" />
+            <img class="logo" src="../assets/flowlauncher.png" />
           </div>
           <p class="name">Flow Launcher</p>
           <div class="tags">
@@ -22,7 +22,7 @@
         </div>
         <div class="firefox app">
           <div class="img">
-            <img class="logo" src="firefox.png" />
+            <img class="logo" src="../assets/firefox.png" />
           </div>
           <p class="name">Firefox</p>
           <div class="tags">
@@ -31,7 +31,7 @@
         </div>
         <div class="discord app">
           <div class="img">
-            <img class="logo" src="discord.png" />
+            <img class="logo" src="../assets/discord.png" />
           </div>
           <p class="name">Discord</p>
           <div class="tags">
@@ -43,7 +43,7 @@
       <div class="row-2 row">
         <div class="bitwarden app">
           <div class="img">
-            <img class="logo" src="app.png" />
+            <img class="logo" src="../assets/app.png" />
           </div>
           <p class="name">Bitwarden</p>
           <div class="tags">
@@ -53,7 +53,7 @@
         </div>
         <div class="vscode app">
           <div class="img">
-            <img class="logo" src="app.png" />
+            <img class="logo" src="../assets/app.png" />
           </div>
           <p class="name">VS Code</p>
           <div class="tags">
@@ -63,7 +63,7 @@
         </div>
         <div class="lunacy app">
           <div class="img">
-            <img class="logo" src="app.png" />
+            <img class="logo" src="../assets/app.png" />
           </div>
           <p class="name">Lunacy</p>
           <div class="tags">
@@ -75,7 +75,7 @@
       <div class="row-3 row">
         <div class="twitter app">
           <div class="img">
-            <img class="logo" src="app.png" />
+            <img class="logo" src="../assets/app.png" />
           </div>
           <p class="name">Twitter</p>
           <div class="tags">
@@ -84,7 +84,7 @@
         </div>
         <div class="applemusic app">
           <div class="img">
-            <img class="logo" src="app.png" />
+            <img class="logo" src="../assets/app.png" />
           </div>
           <p class="name">Apple Music</p>
           <div class="tags">
@@ -93,7 +93,7 @@
         </div>
         <div class="intellij app">
           <div class="img">
-            <img class="logo" src="app.png" />
+            <img class="logo" src="../assets/app.png" />
           </div>
           <p class="name">IntelliJ Community</p>
           <div class="tags">
@@ -105,7 +105,7 @@
       <div class="row-4 row">
         <div class="vercel app">
           <div class="img">
-            <img class="logo" src="app.png" />
+            <img class="logo" src="../assets/app.png" />
           </div>
           <p class="name">Vercel</p>
           <div class="tags">
@@ -115,7 +115,7 @@
         </div>
         <div class="terminal app">
           <div class="img">
-            <img class="logo" src="app.png" />
+            <img class="logo" src="../assets/app.png" />
           </div>
           <p class="name">Windows Terminal</p>
           <div class="tags">
