@@ -2,7 +2,8 @@
   <div class="content">
     <div class="header">
       <h1 class="title">Stack</h1>
-      <p class="description">See all the apps and tools I use to complete my tasks and create my daily workflow, as an
+      <p class="description">Discover all the apps and tools I use to complete my tasks and create my daily workflow, as
+        an
         java
         and web developer.</p>
     </div>
@@ -53,7 +54,7 @@
         </div>
         <div class="vscode app">
           <div class="img">
-            <img class="logo" src="../assets/app.png" />
+            <img class="logo" src="../assets/vscode.png" />
           </div>
           <p class="name">VS Code</p>
           <div class="tags">
@@ -63,7 +64,7 @@
         </div>
         <div class="lunacy app">
           <div class="img">
-            <img class="logo" src="../assets/app.png" />
+            <img class="logo" src="../assets/lunacy.png" />
           </div>
           <p class="name">Lunacy</p>
           <div class="tags">
@@ -115,12 +116,22 @@
         </div>
         <div class="terminal app">
           <div class="img">
-            <img class="logo" src="../assets/app.png" />
+            <img class="logo" src="../assets/terminal.png" />
           </div>
           <p class="name">Windows Terminal</p>
           <div class="tags">
             <span class="tag">Terminal</span>
             <span class="tag">Development</span>
+          </div>
+        </div>
+        <div class="notion app">
+          <div class="img">
+            <img class="logo" src="../assets/notion.png" />
+          </div>
+          <p class="name">Notion</p>
+          <div class="tags">
+            <span class="tag">Workflow</span>
+            <span class="tag">Organization</span>
           </div>
         </div>
       </div>
@@ -241,6 +252,10 @@
   grid-template-columns: 89px 116px;
 }
 
+.notion .tags {
+  grid-template-columns: 94px 113px;
+}
+
 .flowlauncher {
   width: 400px;
 }
@@ -274,9 +289,16 @@
   width: 290px;
 }
 
-.vercel,
+.vercel {
+  width: 300px;
+}
+
 .terminal {
-  width: 442.5px;
+  width: 320px;
+}
+
+.notion {
+  width: 250px;
 }
 
 .name {
