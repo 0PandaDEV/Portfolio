@@ -38,11 +38,10 @@ body {
 
 .content {
   display: flex;
-  max-width: 900px;
+  max-width: 940px;
   justify-content: center;
   align-items: center;
   padding: 50px 20px;
   flex-direction: column;
-  text-align: left;
 }
 </style>

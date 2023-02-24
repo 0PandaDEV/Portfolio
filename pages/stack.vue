@@ -137,18 +137,331 @@
       </div>
     </div>
 
+    <div class="half-apps">
+      <div class="row-1 row">
+        <div class="flowlauncher app">
+          <div class="img">
+            <img class="logo" src="../assets/flowlauncher.png" />
+          </div>
+          <p class="name">Flow Launcher</p>
+          <div class="tags">
+            <span class="tag">Launcher</span>
+            <span class="tag">Workflow</span>
+            <span class="tag">Shortcuts</span>
+          </div>
+        </div>
+        <div class="firefox app">
+          <div class="img">
+            <img class="logo" src="../assets/firefox.png" />
+          </div>
+          <p class="name">Firefox</p>
+          <div class="tags">
+            <span class="tag">Browser</span>
+          </div>
+        </div>
+      </div>
+      <div class="row-2 row">
+        <div class="discord app">
+          <div class="img">
+            <img class="logo" src="../assets/discord.png" />
+          </div>
+          <p class="name">Discord</p>
+          <div class="tags">
+            <span class="tag">Social</span>
+            <span class="tag">Community</span>
+          </div>
+        </div>
+        <div class="bitwarden app">
+          <div class="img">
+            <img class="logo" src="../assets/bitwarden.png" />
+          </div>
+          <p class="name">Bitwarden</p>
+          <div class="tags">
+            <span class="tag">Password Manager</span>
+            <span class="tag">Security</span>
+          </div>
+        </div>
+      </div>
+      <div class="row-3 row">
+        <div class="vscode app">
+          <div class="img">
+            <img class="logo" src="../assets/vscode.png" />
+          </div>
+          <p class="name">VS Code</p>
+          <div class="tags">
+            <span class="tag">Editor</span>
+            <span class="tag">Development</span>
+          </div>
+        </div>
+        <div class="lunacy app">
+          <div class="img">
+            <img class="logo" src="../assets/lunacy.png" />
+          </div>
+          <p class="name">Lunacy</p>
+          <div class="tags">
+            <span class="tag">Design</span>
+            <span class="tag">UI/UX</span>
+          </div>
+        </div>
+      </div>
+      <div class="row-4 row">
+        <div class="twitter app">
+          <div class="img">
+            <img class="logo" src="../assets/twitter.png" />
+          </div>
+          <p class="name">Twitter</p>
+          <div class="tags">
+            <span class="tag">Social</span>
+          </div>
+        </div>
+        <div class="applemusic app">
+          <div class="img">
+            <img class="logo" src="../assets/applemusic.png" />
+          </div>
+          <p class="name">Apple Music</p>
+          <div class="tags">
+            <span class="tag">Music</span>
+          </div>
+        </div>
+      </div>
+      <div class="row-5 row">
+        <div class="intellij app">
+          <div class="img">
+            <img class="logo" src="../assets/intellij.png" />
+          </div>
+          <p class="name">IntelliJ Community</p>
+          <div class="tags">
+            <span class="tag">Editor</span>
+            <span class="tag">Development</span>
+          </div>
+        </div>
+        <div class="vercel app">
+          <div class="img">
+            <img class="logo" src="../assets/vercel.png" />
+          </div>
+          <p class="name">Vercel</p>
+          <div class="tags">
+            <span class="tag">Hosting</span>
+            <span class="tag">Development</span>
+          </div>
+        </div>
+      </div>
+      <div class="row-6 row">
+        <div class="terminal app">
+          <div class="img">
+            <img class="logo" src="../assets/terminal.png" />
+          </div>
+          <p class="name">Windows Terminal</p>
+          <div class="tags">
+            <span class="tag">Terminal</span>
+            <span class="tag">Development</span>
+          </div>
+        </div>
+        <div class="notion app">
+          <div class="img">
+            <img class="logo" src="../assets/notion.png" />
+          </div>
+          <p class="name">Notion</p>
+          <div class="tags">
+            <span class="tag">Workflow</span>
+            <span class="tag">Organization</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <navbar-stack />
   </div>
 </template>
 
 
 <style>
+.app {
+  background-color: #1c1b1d;
+  border: 1px solid #313131ad;
+  border-radius: 14px;
+  width: auto;
+  height: 200px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 940px) {
+
+  /*for Desktop*/
+
+  .half-apps {
+    display: none;
+  }
+
+  .apps {
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .app:not(:last-of-type) {
+    margin-right: 15px;
+  }
+
+  .app {
+    background-color: hsl(270, 2%, 11%);
+    border: 1px solid rgba(49, 49, 49, 0.68);
+    border-radius: 14px;
+    width: auto;
+    height: 200px;
+    padding: 20px 20px;
+  }
+
+
+  .app:not(:last-of-type) {
+    margin-right: 15px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .row:last-of-type {
+    margin-bottom: 120px;
+  }
+
+  .app {
+    width: auto;
+  }
+
+  .flowlauncher {
+    width: 400px;
+  }
+
+  .firefox,
+  .apps .twitter {
+    width: 200px;
+  }
+
+  .discord {
+    width: 270px;
+  }
+
+  .bitwarden {
+    width: 320px;
+  }
+
+  .vscode {
+    width: 300px;
+  }
+
+  .lunacy {
+    width: 250px;
+  }
+
+  .intellij {
+    width: 380px;
+  }
+
+  .applemusic {
+    width: 290px;
+  }
+
+  .vercel {
+    width: 300px;
+  }
+
+  .terminal {
+    width: 320px;
+  }
+
+  .notion {
+    width: 250px;
+  }
+}
+
+@media (max-width: 940px) {
+
+  /*for Half*/
+  .apps {
+    display: none;
+  }
+
+  .half-apps {
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .row:last-of-type {
+    margin-bottom: 120px;
+  }
+
+  .app {
+    width: 100%;
+  }
+
+  .row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .app:not(:last-of-type) {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  /*for Mobile*/
+
+  .half-apps {
+    display: none;
+  }
+
+  .apps {
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .app:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+
+  .row:last-of-type {
+    margin-bottom: 120px;
+  }
+
+  .app {
+    width: 100%;
+  }
+
+  .row {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
 .title {
   line-height: 2;
 }
 
 .description {
   color: #808080;
+}
+
+.row:not(:last-of-type) {
+  margin-bottom: 15px;
 }
 
 .header {
@@ -159,15 +472,6 @@
   margin-bottom: 40px;
 }
 
-.app {
-  background-color: hsl(270, 2%, 11%);
-  border: 1px solid rgba(49, 49, 49, 0.68);
-  border-radius: 10px;
-  width: auto;
-  height: 200px;
-  padding: 20px 20px;
-}
-
 .img {
   width: 60px;
   height: 60px;
@@ -176,31 +480,6 @@
   left: 50%;
   position: relative;
   transform: translateX(-50%);
-}
-
-.apps {
-  max-width: 900px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-}
-
-.app:not(:last-of-type) {
-  margin-right: 15px;
-}
-
-.row {
-  display: flex;
-}
-
-.row:not(:last-of-type) {
-  margin-bottom: 15px;
-}
-
-.row:last-of-type {
-  margin-bottom: 120px;
 }
 
 .tag {
@@ -254,51 +533,6 @@
 
 .notion .tags {
   grid-template-columns: 94px 113px;
-}
-
-.flowlauncher {
-  width: 400px;
-}
-
-.firefox,
-.apps .twitter {
-  width: 200px;
-}
-
-.discord {
-  width: 270px;
-}
-
-.bitwarden {
-  width: 320px;
-}
-
-.vscode {
-  width: 300px;
-}
-
-.lunacy {
-  width: 250px;
-}
-
-.intellij {
-  width: 380px;
-}
-
-.applemusic {
-  width: 290px;
-}
-
-.vercel {
-  width: 300px;
-}
-
-.terminal {
-  width: 320px;
-}
-
-.notion {
-  width: 250px;
 }
 
 .name {
