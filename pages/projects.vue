@@ -8,21 +8,56 @@
 
     <div class="projects">
       <div class="project-1 project">
+        <div class="text">
+          <p class="secondary-title">Work in progress</p>
+          <p class="project-name">EssentialsP</p>
+          <p class="description">EssentialsP is a powerful minecraft plugin with features such as custom GUIs for managing
+            features, warps,
+            homes, and many other features that enhances the experience.</p>
+        </div>
         <div class="project-img">
           <img src="../assets/essentialsp.png">
         </div>
+      </div>
+      <div class="project-2 project">
         <div class="text">
-          <p class="secondary-title">In work</p>
-          <p class="project-name">EssentialsP</p>
-          <p class="description">It's a powerful minecraft plugin for every server. It adds useful features that
-            enhance
-            the game.</p>
+          <p class="secondary-title">Early Development</p>
+          <p class="project-name">Music Player</p>
+          <p class="description">A music player that is developed by me and Waradu. The mission with it, replace spotify
+            or apple music with a free and open source alternative. At the moment it does not have a name or logo because
+            its in early development stage.</p>
+        </div>
+        <div class="project-img">
+          <img src="../assets/essentialsp.png">
+        </div>
+      </div>
+      <div class="project-3 project">
+        <div class="text">
+          <p class="secondary-title">Work in progress</p>
+          <p class="project-name">Better Series</p>
+          <p class="description">A series of minecraft resourcepacks that enhance and tweak the game to it's best. For
+            example Better Leaves, Better Grass or Better Sky and it even has a modpack that aims to improve the
+            performance on really low end PC's.</p>
+        </div>
+        <div class="project-img">
+          <img src="../assets/better.png">
+        </div>
+      </div>
+      <div class="project-4 project">
+        <div class="text">
+          <p class="secondary-title">Canceled</p>
+          <p class="project-name">Panda Client</p>
+          <p class="description">A minecraft 1.8.9 PVP client that should replace lunar client. It had features to display
+            important information's like FPS, CPS, or Keystrokes.</p>
+        </div>
+        <div class="project-img">
+          <img src="../assets/essentialsp.png">
         </div>
       </div>
     </div>
 
-    <navbar-projects />
   </div>
+  <navbar-projects />
 </template>
 
 <script setup>
@@ -33,14 +68,14 @@
 
   /*for Desktop*/
   .project {
-    height: 200px;
+    min-height: 200px;
     padding: 20px 20px;
   }
 
   .project-img,
   .project-img img {
     height: 100%;
-    width: 158.667px;
+    width: 100px;
   }
 }
 
@@ -48,14 +83,14 @@
 
   /*for Mobile*/
   .project {
-    height: 180px;
+    min-height: 180px;
     padding: 14px 14px;
   }
 
   .project-img,
   .project-img img {
     height: 100%;
-    width: 152px;
+    width: 100px;
   }
 
   .project .description {
@@ -63,12 +98,13 @@
   }
 }
 
-.projects {
+.content .projects {
   max-width: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
+  margin-bottom: 120px;
 }
 
 .project {
@@ -80,10 +116,14 @@
   flex-direction: row;
 }
 
+.project:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
 .project-name {
   margin-bottom: 7px;
   font-weight: 600;
-  font-size: 19px;
+  font-size: 22px;
 }
 
 .project-img img {
@@ -91,7 +131,8 @@
 }
 
 .project-img {
-  margin-right: 20px;
+  float: right;
+  margin-left: 8px;
 }
 
 .secondary-title {

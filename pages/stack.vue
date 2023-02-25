@@ -270,8 +270,8 @@
       </div>
     </div>
 
-    <navbar-stack />
   </div>
+  <navbar-stack />
 </template>
 
 

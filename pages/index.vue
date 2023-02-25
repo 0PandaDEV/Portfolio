@@ -1,8 +1,8 @@
 <template>
   <div class="content">
     <h1>PandaDEV</h1>
-    <navbar />
   </div>
+  <navbar />
 </template>
 
 <script setup>
