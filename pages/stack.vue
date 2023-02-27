@@ -4,8 +4,8 @@
       <h1 class="title">Stack</h1>
       <p class="description">Discover all the apps and tools I use to complete my tasks and create my daily workflow, as
         an
-        java
-        and web developer.</p>
+        Java
+        and Web developer.</p>
     </div>
 
     <div class="apps">

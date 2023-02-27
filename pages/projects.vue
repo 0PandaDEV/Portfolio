@@ -2,7 +2,8 @@
   <div class="content">
     <div class="header">
       <h1 class="title">Projects</h1>
-      <p class="description">Look at all of my projects that i've done or been working on until now. There are some really
+      <p class="description">Discover all of my projects that I've done or been working on until now. There are some
+        really
         cool ones so go and check them out.</p>
     </div>
 
@@ -11,9 +12,10 @@
         <div class="text">
           <p class="secondary-title">Work in progress</p>
           <p class="project-name">EssentialsP</p>
-          <p class="description">EssentialsP is a powerful minecraft plugin with features such as custom GUIs for managing
-            features, warps,
-            homes, and many other features that enhances the experience.</p>
+          <p class="description">EssentialsP is a powerful Minecraft plugin built with the Spigot API. It's meant to be an
+            assistant to Minecraft server admins. Some of the features are custom GUIs for managing
+            the plugins systems, warps and homes which make it easy for every player to understand because there is no
+            complicated commands.</p>
         </div>
         <div class="project-img">
           <img src="../assets/essentialsp.png">
@@ -23,19 +25,20 @@
         <div class="text">
           <p class="secondary-title">Early Development</p>
           <p class="project-name">Music Player</p>
-          <p class="description">A music player that is developed by me and Waradu. The mission with it, replace spotify
-            or apple music with a free and open source alternative. At the moment it does not have a name or logo because
-            its in early development stage.</p>
+          <p class="description">A Music Player that is developed by me and Waradu. The mission with it, replace Spotify
+            and Apple Music with a free and open source alternative. At the moment it does not have a name or logo because
+            its in early development stage. The project is created using the Tauri framework (an alternative to Electron)
+            and React.</p>
         </div>
         <div class="project-img">
-          <img src="../assets/essentialsp.png">
+          <img src="../assets/project.png">
         </div>
       </div>
       <div class="project-3 project">
         <div class="text">
           <p class="secondary-title">Work in progress</p>
           <p class="project-name">Better Series</p>
-          <p class="description">A series of minecraft resourcepacks that enhance and tweak the game to it's best. For
+          <p class="description">It's series of Minecraft resourcepacks that enhance and tweak the game to it's best. For
             example Better Leaves, Better Grass or Better Sky and it even has a modpack that aims to improve the
             performance on really low end PC's.</p>
         </div>
@@ -51,7 +54,7 @@
             important information's like FPS, CPS, or Keystrokes.</p>
         </div>
         <div class="project-img">
-          <img src="../assets/essentialsp.png">
+          <img src="../assets/pandaclient.png">
         </div>
       </div>
     </div>
