@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "@nuxt/image": "^0.7.1",
-    "nuxt": "^3.2.2"
+    "nuxt": "^3.2.3"
   }
 }
