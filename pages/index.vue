@@ -15,6 +15,19 @@
   font-display: swap;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #171618;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444446;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #444446;
+}
+
 * {
   margin: 0px;
   padding: 0px;
