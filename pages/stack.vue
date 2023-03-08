@@ -542,4 +542,9 @@
 }
 
 @keyframes test {}
+
+img.logo {
+    width: 100% !important;
+}
+
 </style>
