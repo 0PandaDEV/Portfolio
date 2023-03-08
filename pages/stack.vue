@@ -135,6 +135,42 @@
 <style>
 /*==============================*/
 
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter.woff2") format("woff2");
+  font-display: swap;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #444446 #171618;
+  box-sizing: border-box;
+  font-family: Inter !important;
+}
+
+body {
+  background: rgb(23, 22, 24);
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow-y: scroll;
+}
+
+.content {
+  display: flex;
+  max-width: 940px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  flex-direction: column;
+}
+
 .apps {
   max-width: 900px;
   display: flex;
@@ -216,66 +252,4 @@
 img.logo {
   width: 100%;
 }
-/*
-@media (max-width: 940px) {
-
-  .half-apps {
-    max-width: 900px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    flex-direction: column;
-  }
-
-  .row:last-of-type {
-    margin-bottom: 120px;
-  }
-
-  .app {
-    width: 100%;
-  }
-
-  .row {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .app:not(:last-of-type) {
-    margin-right: 15px;
-  }
-}
-
-@media (max-width: 600px) {
-  .apps {
-    max-width: 900px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .app:not(:last-of-type) {
-    margin-bottom: 15px;
-  }
-
-  .row:last-of-type {
-    margin-bottom: 120px;
-  }
-
-  .app {
-    width: 100%;
-  }
-
-  .row {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-
-*/
 </style>
