@@ -9,6 +9,7 @@ export default defineNuxtConfig({
         // <meta name="description" content="My amazing site">
         { name: "description", content: "My amazing site." },
       ],
+      link: [{ rel: "icon", type: "image/x-icon", href: "./favicon.png" }],
     },
   },
 });
