@@ -247,24 +247,6 @@ body {
   text-align: center;
 }
 
-.hover {
-  display: none;
-  text-align: center;
-  position: absolute;
-  top: -30px;
-  z-index: 10;
-  background-color: white;
-  border-radius: 8px;
-  padding: 3px;
-  padding-inline: 6px;
-  font-weight: 500;
-  transition: all 0.5s;
-}
-
-.icon:hover>.hover {
-  display: block;
-}
-
 img.logo {
   width: 100%;
 }
