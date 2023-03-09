@@ -60,7 +60,7 @@
     </div>
 
   </div>
-  <navbar-projects />
+  <navbar />
 </template>
 
 <script setup>

@@ -129,7 +129,7 @@
       </div>
     </div>
   </div>
-  <navbar-stack />
+  <navbar />
 </template>
 
 <style>

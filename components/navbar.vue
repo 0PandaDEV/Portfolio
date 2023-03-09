@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
-    <nuxt-link to="/">
-      <div class="home icon selected">
+    <nuxt-link to="/" class="navLink">
+      <div class="home icon">
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M9.02 2.84004L3.63 7.04004C2.73 7.74004 2 9.23004 2 10.36V17.77C2 20.09 3.89 21.99 6.21 21.99H17.79C20.11 21.99 22 20.09 22 17.78V10.5C22 9.29004 21.19 7.74004 20.2 7.05004L14.02 2.72004C12.62 1.74004 10.37 1.79004 9.02 2.84004Z"
@@ -10,7 +10,7 @@
         </svg>
       </div>
     </nuxt-link>
-    <nuxt-link to="/projects">
+    <nuxt-link to="/projects" class="navLink">
       <div class="projects icon">
         <svg viewBox="0 0 24 24" fill="#30303054" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -24,7 +24,7 @@
         </svg>
       </div>
     </nuxt-link>
-    <nuxt-link to="/stack">
+    <nuxt-link to="/stack" class="navLink">
       <div class="stack icon">
         <div class="hover">Stack</div>
         <svg viewBox="0 0 24 24" fill="#30303054" xmlns="http://www.w3.org/2000/svg">
@@ -72,6 +72,19 @@
 </script>
 
 <style>
+.router-link-active > .icon {
+  background-color: hsl(263, 73%, 56%);
+  border-radius: 18px;
+  color: #303030;
+}
+
+.navLink:hover:not(.router-link-active) > .icon {
+  background-color: #2726299a;
+  border-radius: 18px;
+  transition: background-color 0.2s;
+}
+
+
 * {
   margin: 0px;
   padding: 0px;
@@ -174,12 +187,6 @@
   .divider {
     margin-right: 8px;
   }
-}
-
-.icon:hover:not(.selected) {
-  background-color: #2726299a;
-  border-radius: 18px;
-  transition: background-color 0.2s;
 }
 
 
