@@ -67,47 +67,13 @@
 </script>
 
 <style>
-@media (min-width: 600px) {
-
-  /*for Desktop*/
-  .project {
-    min-height: 200px;
-    padding: 20px 20px;
-  }
-
-  .project-img,
-  .project-img img {
-    height: 100%;
-    width: 100px;
-  }
-}
-
-@media (max-width: 600px) {
-
-  /*for Mobile*/
-  .project {
-    min-height: 180px;
-    padding: 14px 14px;
-  }
-
-  .project-img,
-  .project-img img {
-    height: 100%;
-    width: 100px;
-  }
-
-  .project .description {
-    font-size: 14px;
-  }
-}
-
 .content .projects {
   max-width: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 120px;
+  text-align: left;
 }
 
 .project {
@@ -144,5 +110,39 @@
   color: #7c3de1;
   font-family: monospace !important;
   font-weight: 600;
+}
+
+@media (min-width: 600px) {
+
+  /*for Desktop*/
+  .project {
+    min-height: 200px;
+    padding: 20px 20px;
+  }
+
+  .project-img,
+  .project-img img {
+    height: 100%;
+    width: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  /*for Mobile*/
+  .project {
+    min-height: 180px;
+    padding: 14px 14px;
+  }
+
+  .project-img,
+  .project-img img {
+    height: 100%;
+    width: 100px;
+  }
+
+  .project .description {
+    font-size: 14px;
+  }
 }
 </style>
