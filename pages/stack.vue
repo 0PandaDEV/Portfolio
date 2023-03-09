@@ -129,24 +129,11 @@
       </div>
     </div>
   </div>
-  <navbar />
+  <navbar-stack />
 </template>
 
 <style>
 /*==============================*/
-
-.router-link-active > .icon {
-  background-color: hsl(263, 73%, 56%);
-  border-radius: 18px;
-  color: #303030;
-}
-
-.icon:hover:not(.router-link-active > .icon) {
-  background-color: #2726299a;
-  border-radius: 18px;
-  transition: background-color 0.2s;
-}
-
 
 @font-face {
   font-family: Inter;
@@ -162,7 +149,6 @@
   scrollbar-color: #444446 #171618;
   box-sizing: border-box;
   font-family: Inter !important;
-  text-decoration: none;
 }
 
 body {
@@ -261,26 +247,22 @@ body {
   text-align: center;
 }
 
-.nav::after {
-  opacity: 0;
-  content: attr(data-tooltip);
-  position: relative;
-  top: -60px;
-  left: 50%;
+.hover {
+  display: none;
+  text-align: center;
+  position: absolute;
+  top: -30px;
   z-index: 10;
   background-color: white;
   border-radius: 8px;
   padding: 3px;
   padding-inline: 6px;
   font-weight: 500;
-  transition: all .3s;
-  color: black;
-  width: 100px;
+  transition: all 0.5s;
 }
 
-.nav:hover::after {
-  opacity: 1;
-  top: -80px;
+.icon:hover>.hover {
+  display: block;
 }
 
 img.logo {

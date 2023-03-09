@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <nuxt-link to="/">
-      <div class="home icon" data-tooltip="Home" id="home">
+      <div class="home icon selected">
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M9.02 2.84004L3.63 7.04004C2.73 7.74004 2 9.23004 2 10.36V17.77C2 20.09 3.89 21.99 6.21 21.99H17.79C20.11 21.99 22 20.09 22 17.78V10.5C22 9.29004 21.19 7.74004 20.2 7.05004L14.02 2.72004C12.62 1.74004 10.37 1.79004 9.02 2.84004Z"
@@ -10,8 +10,8 @@
         </svg>
       </div>
     </nuxt-link>
-    <nuxt-link to="/projects" id="projects">
-      <div class="projects icon" data-tooltip="Projects">
+    <nuxt-link to="/projects">
+      <div class="projects icon">
         <svg viewBox="0 0 24 24" fill="#30303054" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M20 8.25V18C20 21 18.21 22 16 22H8C5.79 22 4 21 4 18V8.25C4 5 5.79 4.25 8 4.25C8 4.87 8.24997 5.43 8.65997 5.84C9.06997 6.25 9.63 6.5 10.25 6.5H13.75C14.99 6.5 16 5.49 16 4.25C18.21 4.25 20 5 20 8.25Z"
@@ -24,8 +24,9 @@
         </svg>
       </div>
     </nuxt-link>
-    <nuxt-link to="/stack" id="stack">
-      <div class="stack icon" data-tooltip="Stack">
+    <nuxt-link to="/stack">
+      <div class="stack icon">
+        <div class="hover">Stack</div>
         <svg viewBox="0 0 24 24" fill="#30303054" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M6.08998 13.28H9.17998V20.48C9.17998 22.16 10.09 22.5 11.2 21.24L18.77 12.64C19.7 11.59 19.31 10.72 17.9 10.72H14.81V3.52002C14.81 1.84002 13.9 1.50002 12.79 2.76002L5.21998 11.36C4.29998 12.42 4.68998 13.28 6.08998 13.28Z"
@@ -66,6 +67,9 @@
     </a>
   </div>
 </template>
+
+<script>
+</script>
 
 <style>
 * {
@@ -172,6 +176,13 @@
   }
 }
 
+.icon:hover:not(.selected) {
+  background-color: #2726299a;
+  border-radius: 18px;
+  transition: background-color 0.2s;
+}
+
+
 .github {
   margin-right: 0px;
 }
@@ -180,5 +191,11 @@
   background-color: rgba(49, 49, 49, 0.68);
   width: 1px;
   height: 40px;
+}
+
+.selected {
+  background-color: hsl(263, 73%, 56%);
+  border-radius: 18px;
+  color: #303030;
 }
 </style>
