@@ -10,6 +10,10 @@ export default defineNuxtConfig({
         { name: "description", content: "My amazing site." },
       ],
       link: [{ rel: "icon", type: "image/x-icon", href: "./favicon.png" }],
+      script: [{
+        src: "https://analytics.h-supertools.com/js/script.js",
+        id: "ZwSg9rf6GA",
+      }]
     },
   },
 });
