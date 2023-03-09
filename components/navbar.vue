@@ -77,13 +77,13 @@
 </script>
 
 <style>
-.router-link-active > .icon {
+.router-link-active>.icon {
   background-color: hsl(263, 73%, 56%);
   border-radius: 18px;
   color: #303030;
 }
 
-.navLink:hover:not(.router-link-active) > .icon {
+.navLink:hover:not(.router-link-active)>.icon {
   background-color: #2726299a;
   border-radius: 18px;
   transition: background-color 0.2s;
@@ -163,7 +163,7 @@
     align-items: center;
     position: fixed;
     left: 50%;
-    bottom: 50px;
+    bottom: 20px;
     transform: translate(-50%, 0%);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -232,27 +232,27 @@
   transition: all 0.3s;
 }
 
-.home > .hover {
+.home>.hover {
   margin-left: -15px;
 }
 
-.projects > .hover {
+.projects>.hover {
   margin-left: -25px;
 }
 
-.stack > .hover {
+.stack>.hover {
   margin-left: -13px;
 }
 
-.email > .hover {
+.email>.hover {
   margin-left: -7px;
 }
 
-.twitter > .hover {
+.twitter>.hover {
   margin-left: -18px;
 }
 
-.github > .hover {
+.github>.hover {
   margin-left: -17px;
 }
 
@@ -260,5 +260,4 @@
   opacity: 1;
   top: -30px;
 }
-
 </style>
