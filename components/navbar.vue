@@ -38,7 +38,8 @@
     </nuxt-link>
     <div class="divider"></div>
     <a href="mailto:contact@pandadev.tk">
-      <div class="email icon">
+      <div class="email icon nlIcon">
+        <div class="hover">Mail</div>
         <svg viewBox="0 0 24 24" fill="#30303054" xmlns="http://www.w3.org/2000/svg">
           <path d="M17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5Z"
             stroke="#fff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
@@ -48,7 +49,8 @@
       </div>
     </a>
     <a target="_blank" href="https://twitter.com/PandaDEV_">
-      <div class="twitter icon">
+      <div class="twitter icon nlIcon">
+        <div class="hover">Twitter</div>
         <svg viewBox="0 0 24 24" fill="#30303054" stroke="white" stroke-width="1.7" stroke-linecap="round"
           stroke-linejoin="round" class="feather feather-twitter">
           <path
@@ -58,7 +60,8 @@
       </div>
     </a>
     <a target="_blank" href="https://github.com/0PandaDEV/">
-      <div class="github icon">
+      <div class="github icon nlIcon">
+        <div class="hover">Github</div>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="#30303054" stroke="white" stroke-width="1.7"
           stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
           <path
@@ -81,6 +84,12 @@
 }
 
 .navLink:hover:not(.router-link-active) > .icon {
+  background-color: #2726299a;
+  border-radius: 18px;
+  transition: background-color 0.2s;
+}
+
+.nlIcon:hover {
   background-color: #2726299a;
   border-radius: 18px;
   transition: background-color 0.2s;
@@ -233,6 +242,18 @@
 
 .stack > .hover {
   margin-left: -13px;
+}
+
+.email > .hover {
+  margin-left: -7px;
+}
+
+.twitter > .hover {
+  margin-left: -18px;
+}
+
+.github > .hover {
+  margin-left: -17px;
 }
 
 .icon:hover>.hover {
