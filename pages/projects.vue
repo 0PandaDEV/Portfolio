@@ -18,7 +18,7 @@
             complicated commands.</p>
         </div>
         <div class="project-img">
-          <img src="../assets/essentialsp.png">
+          <img loading="lazy" src="../assets/essentialsp.png">
         </div>
       </div>
       <div class="project-2 project">
@@ -31,7 +31,7 @@
             and React.</p>
         </div>
         <div class="project-img">
-          <img src="../assets/project.png">
+          <img loading="lazy" src="../assets/project.png">
         </div>
       </div>
       <div class="project-3 project">
@@ -43,7 +43,7 @@
             performance on really low end PC's.</p>
         </div>
         <div class="project-img">
-          <img src="../assets/better.png">
+          <img loading="lazy" src="../assets/better.png">
         </div>
       </div>
       <div class="project-4 project">
@@ -54,7 +54,7 @@
             important information's like FPS, CPS, or Keystrokes.</p>
         </div>
         <div class="project-img">
-          <img src="../assets/pandaclient.png">
+          <img loading="lazy" src="../assets/pandaclient.png">
         </div>
       </div>
     </div>
@@ -83,6 +83,7 @@
 }
 
 @media (max-width: 600px) {
+
   /*for Mobile*/
   .project {
     min-height: 180px;
