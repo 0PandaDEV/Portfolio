@@ -81,7 +81,6 @@
 }
 
 @media (max-width: 600px) {
-
   /*for Mobile*/
   .project {
     min-height: 180px;
