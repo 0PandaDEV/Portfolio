@@ -181,7 +181,6 @@
     border: 1px solid rgba(49, 49, 49, 0.68);
     height: 70px;
     width: 370px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
   }
 
   .icon svg {
