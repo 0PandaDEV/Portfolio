@@ -7,9 +7,9 @@ export default defineNuxtConfig({
       title: "PandaDEV",
       meta: [
         // <meta name="description" content="My amazing site">
-        { name: "description", content: "My amazing site." },
+        { name: "description", content: "PandaDEV's Portfolio." },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "./favicon.png" }],
+      link: [{ rel: 'icon', type: 'image/png', href: './static/favicon.png' }],
     },
   },
 });
