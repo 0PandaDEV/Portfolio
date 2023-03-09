@@ -60,13 +60,11 @@
     </div>
 
   </div>
-  <navbar-projects />
+  <navbar />
 </template>
 
-<script setup>
-</script>
-
 <style>
+
 @media (min-width: 600px) {
 
   /*for Desktop*/
