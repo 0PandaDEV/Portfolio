@@ -113,7 +113,7 @@ main {
   width: 236px;
   height: 55px;
   background-color: white;
-  font-size: 14px;
+  font-size: clamp(12px, 1vw, 14px);
   padding: 19px;
   padding-inline: 50px;
   border-radius: 21px;
