@@ -98,14 +98,13 @@
     -webkit-backdrop-filter: blur(10px);
     -moz-backdrop-filter: blur(10px);
     -o-backdrop-filter: blur(10px);
-    background-color: hsla(270, 7%, 11%, 0.6);
+    background-color: rgba(28, 26, 30, 0.6);
     padding: 5px 5px;
     border-radius: 24px;
     flex-direction: row;
-    border: 1px solid rgba(49, 49, 49, 0.68);
+    border: 1px solid hwb(0 19% 81% / 0.678);
     height: 70px;
     width: 390px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
   }
 
   .icon svg {
