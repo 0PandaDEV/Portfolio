@@ -107,7 +107,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 120px;
 }
 
 .project {
