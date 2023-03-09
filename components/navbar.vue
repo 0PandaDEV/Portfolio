@@ -151,6 +151,11 @@
   .divider {
     margin-right: 10px;
   }
+
+  .icon:hover>.hover {
+    opacity: 1;
+    top: -30px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -233,31 +238,26 @@
 }
 
 .home>.hover {
-  margin-left: -15px;
-}
-
-.projects>.hover {
-  margin-left: -25px;
-}
-
-.stack>.hover {
-  margin-left: -13px;
-}
-
-.email>.hover {
-  margin-left: -7px;
-}
-
-.twitter>.hover {
-  margin-left: -18px;
-}
-
-.github>.hover {
   margin-left: -17px;
 }
 
-.icon:hover>.hover {
-  opacity: 1;
-  top: -30px;
+.projects>.hover {
+  margin-left: -26px;
+}
+
+.stack>.hover {
+  margin-left: -16px;
+}
+
+.email>.hover {
+  margin-left: -10px;
+}
+
+.twitter>.hover {
+  margin-left: -20px;
+}
+
+.github>.hover {
+  margin-left: -19px;
 }
 </style>
