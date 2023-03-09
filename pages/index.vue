@@ -1,17 +1,19 @@
 <template>
-  <div class="headerbg">
-    <main>
-      <div class="hero">
-        <img loading="lazy" src="../assets/logo.png" alt="logo" class="mainlogo">
-        <p class="forword">Hi, I'm PandaDEV</p>
-        <h1 class="h1">Building Minecraft plugins and websites.</h1>
-        <h2 class="h2">I'm a Devloper specialized in java and web developement. Also i'm doing UI/UX Design.</h2>
-        <a href="mailto:nils.ulmann@klangonzept.ch" class="button">
+  <div class="bg"></div>
+  <main>
+    <div class="hero">
+      <img loading="lazy" src="../assets/logo.png" alt="logo" class="mainlogo">
+      <p class="forword">Hi, I'm PandaDEV</p>
+      <h1 class="h1">Building Minecraft plugins and websites.</h1>
+      <h2 class="h2">I'm a Devloper specialized in java and web developement. Also i'm doing UI/UX Design.</h2>
+      <a href="mailto:nils.ulmann@klangonzept.ch">
+        <div class="button">
           CONNECT WITH ME
-        </a>
-      </div>
-    </main>
-  </div>
+        </div>
+      </a>
+    </div>
+  </main>
+  asdas
   <navbar />
 </template>
 
@@ -57,7 +59,7 @@ body {
   align-items: center;
   display: flex;
   overflow-y: scroll;
-
+  height: fit-content;
 }
 
 main {
@@ -67,8 +69,18 @@ main {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 50px;
   padding-inline: 0;
+  margin-top: calc((100vh - 120px) / 2);
+  transform: translateY(-50%);
+  padding: 50px;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  z-index: -1;
 }
 
 .headerbg {
@@ -109,9 +121,6 @@ main {
 }
 
 .button {
-  display: flex;
-  width: 236px;
-  height: 55px;
   background-color: white;
   font-size: clamp(12px, 1vw, 14px);
   padding: 19px;
@@ -125,6 +134,11 @@ main {
   position: relative;
   transform: translateX(-50%);
   white-space: nowrap;
+  width: fit-content;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media (max-width: 1300px) {
