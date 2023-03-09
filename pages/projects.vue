@@ -67,6 +67,17 @@
 </script>
 
 <style>
+body {
+  background: rgb(23, 22, 24);
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow-y: scroll;
+}
+
 .content .projects {
   max-width: 900px;
   display: flex;
