@@ -1,6 +1,6 @@
 <template>
   <div class="bg"></div>
-  <main>
+  <div class="center">
     <div class="hero">
       <img loading="lazy" src="../assets/logo.png" alt="logo" class="mainlogo">
       <p class="forword">Hi, I'm PandaDEV</p>
@@ -12,8 +12,7 @@
         </div>
       </a>
     </div>
-  </main>
-  asdas
+  </div>
   <navbar />
 </template>
 
@@ -62,16 +61,13 @@ body {
   height: fit-content;
 }
 
-main {
-  display: flex;
-  max-width: 900px;
+.hero {
   justify-content: center;
+  max-width: 900px;
   align-items: center;
   flex-direction: column;
   text-align: center;
   padding-inline: 0;
-  margin-top: calc((100vh - 120px) / 2);
-  transform: translateY(-50%);
   padding: 50px;
 }
 
@@ -83,7 +79,7 @@ main {
   z-index: -1;
 }
 
-.headerbg {
+.center {
   width: 100%;
   height: calc(100vh - 120px);
   position: absolute;
@@ -94,9 +90,9 @@ main {
 }
 
 .mainlogo {
+  height: clamp(130px, 10vw, 180px);
   border-radius: 1000px;
   width: clamp(130px, 10vw, 180px);
-  height: clamp(130px, 10vw, 180px);
 }
 
 .forword {
