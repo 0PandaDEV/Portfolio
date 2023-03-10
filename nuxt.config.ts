@@ -10,10 +10,17 @@ export default defineNuxtConfig({
         { name: "description", content: "PandaDEV's Portfolio." },
       ],
       link: [{ rel: "icon", type: "image/x-icon", href: "./favicon.png" }],
-      script: [{
-        src: "https://analytics.h-supertools.com/js/script.js",
-        id: "ZwSg9rf6GA",
-      }]
+      script: [
+      {
+        hid: 'analytics',
+        src: 'https://analytics.h-supertools.com/js/script.js',
+        async: true,
+        defer: true,
+        'data-host': 'https://analytics.h-supertools.com',
+        'data-dnt': 'false',
+        id: 'ZwSg9rf6GA'
+      }
+    ]
     },
   },
 });
