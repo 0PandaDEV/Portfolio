@@ -13,7 +13,8 @@
     "node_modules": true,
     ".nuxt": true,
     "tsconfig.json": true,
-    "favicon.ico": true
+    "favicon.ico": true,
+    "yarn-error.log": true
   },
   "hide-files.files": [
     ".vscode",
@@ -23,7 +24,8 @@
     "node_modules",
     ".nuxt",
     "tsconfig.json",
-    "favicon.ico"
+    "favicon.ico",
+    "yarn-error.log"
   ],
   "nuxt.isNuxtApp": false
 }

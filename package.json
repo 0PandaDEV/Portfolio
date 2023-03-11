@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "nuxt-hard-reset": "nuxt dev",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -8,7 +9,6 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/image": "^0.7.1",
     "nuxt": "^3.2.3"
   }
 }
