@@ -6,11 +6,11 @@
       <p class="forword">Hi, I'm PandaDEV</p>
       <h1 class="h1">Building Minecraft plugins and websites.</h1>
       <h2 class="h2">I'm a Devloper specialized in java and web developement. Also i'm doing UI/UX Design.</h2>
-      <a href="mailto:nils.ulmann@klangonzept.ch">
+      <nuxt-link to="/projects">
         <div class="button">
-          CONNECT WITH ME
+          SEE MY WORK
         </div>
-      </a>
+      </nuxt-link>
     </div>
   </div>
   <navbar />
