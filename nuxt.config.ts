@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
     head: {
@@ -6,10 +5,16 @@ export default defineNuxtConfig({
       viewport: "width=device-width, initial-scale=1.0",
       title: "PandaDEV",
       meta: [
-        // <meta name="description" content="My amazing site">
-        { name: "description", content: "PandaDEV's Portfolio." },
+        { hid: 'description', name: 'description', content: "I'm a Developer specialized in java and web development. Also, I'm doing UI/UX Design." },
+        { property: 'og:title', content: 'PandaDEV' },
+        { property: 'og:description', content: "I'm a Developer specialized in java and web development. Also, I'm doing UI/UX Design." },
+        { property: 'og:image', content: './assets/logo.jpg' },
+        { property: 'twitter:card', content: 'summary' },
+        { property: 'twitter:title', content: 'PandaDEV' },
+        { property: 'twitter:description', content: "I'm a Developer specialized in java and web development. Also, I'm doing UI/UX Design." },
+        { property: 'twitter:image', content: './assets/logo.jpg' },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "./favicon.png" }],
+      link: [{ rel: "icon", type: "image/x-icon", href: "./assets/favicon.png" }],
       script: [
       {
         hid: 'analytics',
