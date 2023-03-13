@@ -5,7 +5,7 @@
       <img src="~/assets/logo.jpg" alt="logo" class="mainlogo" />
       <p class="forword">Hi, I'm PandaDEV</p>
       <h1 class="h1">Building Minecraft plugins and websites.</h1>
-      <h2 class="h2">I'm a Devloper specialized in java and web developement. Also i'm doing UI/UX Design.</h2>
+      <h2 class="h2">I'm a Developer specialized in java and web development. Also, I'm doing UI/UX Design.</h2>
       <nuxt-link to="/projects">
         <div class="button">
           SEE MY WORK
