@@ -14,9 +14,8 @@ export default defineNuxtConfig({
         { property: 'twitter:description', content: "I'm a Developer specialized in java and web development. Also, I'm doing UI/UX Design." },
         { property: 'twitter:image', content: './assets/logo.jpg' },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "./assets/favicon.png" }],
-      script: [
-      {
+      link: [{ rel: "icon", type: "image/x-icon", href: "_nuxt/assets/favicon.ico" }],
+      script: [{
         hid: 'analytics',
         src: 'https://analytics.h-supertools.com/js/script.js',
         async: true,
@@ -24,8 +23,7 @@ export default defineNuxtConfig({
         'data-host': 'https://analytics.h-supertools.com',
         'data-dnt': 'false',
         id: 'ZwSg9rf6GA'
-      }
-    ]
+      }]
     },
   },
 });
