@@ -11,14 +11,14 @@
       <div class="project-1 project">
         <div class="text">
           <p class="secondary-title">Work in progress</p>
-          <p class="project-name">EssentialsP</p>
-          <p class="description">EssentialsP is a powerful Minecraft plugin built with the Spigot API. It's meant to be an
+          <p class="project-name">Nextron</p>
+          <p class="description">Nextron is a powerful Minecraft plugin built with the Spigot API. It's meant to be an
             assistant to Minecraft server admins. Some of the features are custom GUIs for managing
             the plugins systems, warps and homes which make it easy for every player to understand because there is no
             complicated commands.</p>
         </div>
         <div class="project-img">
-          <img loading="lazy" src="../assets/essentialsp.jpg">
+          <img loading="lazy" src="../assets/nextron.jpg">
         </div>
       </div>
       <div class="project-2 project">
