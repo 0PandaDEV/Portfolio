@@ -67,8 +67,7 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding-inline: 0;
-  padding: 50px;
+  padding-inline: 50px;
 }
 
 .bg {
