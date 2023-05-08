@@ -1,4 +1,9 @@
 {
+  "hide-files.files": [
+    ".gitignore",
+    "README.md",
+    ".vscode"
+  ],
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -6,26 +11,9 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
-    ".vscode": true,
-    "yarn.lock": true,
-    ".npmrc": true,
     ".gitignore": true,
-    "node_modules": true,
-    ".nuxt": true,
-    "tsconfig.json": true,
-    "favicon.ico": true,
-    "yarn-error.log": true
-  },
-  "hide-files.files": [
-    ".vscode",
-    "yarn.lock",
-    ".npmrc",
-    ".gitignore",
-    "node_modules",
-    ".nuxt",
-    "tsconfig.json",
-    "favicon.ico",
-    "yarn-error.log"
-  ],
-  "nuxt.isNuxtApp": false
+    "README.md": true,
+    ".vscode": true,
+    ".vscode/settings.json": true
+  }
 }
