@@ -15,5 +15,6 @@
     "README.md": true,
     ".vscode": true,
     ".vscode/settings.json": true
-  }
+  },
+  "git.enableCommitSigning": true
 }
