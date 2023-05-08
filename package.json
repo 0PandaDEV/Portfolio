@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "nuxt": "nuxt",
     "nuxt-hard-reset": "nuxt dev",
     "build": "nuxt build",
     "dev": "nuxt dev",

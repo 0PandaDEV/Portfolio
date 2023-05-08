@@ -2,7 +2,7 @@
   <div class="bg"></div>
   <div class="center">
     <div class="hero">
-      <img src="~/assets/logo.jpg" alt="logo" class="mainlogo" />
+      <img src="/assets/logo.jpg" alt="logo" class="mainlogo" />
       <p class="forword">Hi, I'm PandaDEV</p>
       <h1 class="h1">Building Minecraft plugins and websites.</h1>
       <h2 class="h2">I'm a Developer specialized in java and web development. Also, I'm doing UI/UX Design.</h2>
@@ -16,13 +16,13 @@
   <navbar />
 </template>
 
-<script>
+<script lang="js">
 </script>
 
 <style>
 @font-face {
   font-family: Inter;
-  src: url("../fonts/Inter.woff2") format("woff2");
+  src: url("/fonts/Inter.woff2") format("woff2");
   font-display: swap;
 }
 

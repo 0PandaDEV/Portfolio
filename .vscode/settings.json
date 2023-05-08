@@ -16,5 +16,5 @@
     ".vscode": true,
     ".vscode/settings.json": true
   },
-  "git.enableCommitSigning": true
+  "git.enableCommitSigning": false
 }
