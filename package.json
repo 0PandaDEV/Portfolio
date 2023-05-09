@@ -1,8 +1,8 @@
 {
+  "name": "Portfolio",
   "private": true,
   "scripts": {
     "nuxt": "nuxt",
-    "nuxt-hard-reset": "nuxt dev",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.2.3"
+    "@types/node": "^18",
+    "nuxt": "^3.4.3"
   }
 }
