@@ -1,3 +1,12 @@
+<template>
+  <div>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
+</template>
+
+<style>
 @font-face {
   font-family: Inter;
   src: url("./fonts/Inter.woff2") format("woff2");
@@ -13,3 +22,4 @@
   box-sizing: border-box;
   font-family: Inter !important;
 }
+</style>
