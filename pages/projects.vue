@@ -18,7 +18,7 @@
             complicated commands.</p>
         </div>
         <div class="project-img">
-          <img loading="lazy" src="/assets/nextron.jpg">
+          <img loading="lazy" src="nextron.jpg">
         </div>
       </div>
       <div class="project-2 project">
@@ -31,7 +31,7 @@
             and React.</p>
         </div>
         <div class="project-img">
-          <img loading="lazy" src="/assets/project.jpg">
+          <img loading="lazy" src="project.jpg">
         </div>
       </div>
       <div class="project-3 project">
@@ -43,7 +43,7 @@
             performance on really low end PC's.</p>
         </div>
         <div class="project-img">
-          <img loading="lazy" src="/assets/better.jpg">
+          <img loading="lazy" src="better.jpg">
         </div>
       </div>
       <div class="project-4 project">
@@ -54,7 +54,7 @@
             important information's like FPS, CPS, or Keystrokes.</p>
         </div>
         <div class="project-img">
-          <img loading="lazy" src="/assets/pandaclient.jpg">
+          <img loading="lazy" src="pandaclient.jpg">
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@
     <div class="apps">
       <div class="flowlauncher app">
         <div class="img">
-          <img loading="lazy" class="logo" src="/assets/flowlauncher.png" />
+          <img loading="lazy" class="logo" src="flowlauncher.png" />
         </div>
         <p class="name">Flow Launcher</p>
         <div class="tags">
@@ -22,7 +22,7 @@
       </div>
       <div class="firefox app">
         <div class="img">
-          <img loading="lazy" class="logo" src="/assets/firefox.png" />
+          <img loading="lazy" class="logo" src="firefox.png" />
         </div>
         <p class="name">Firefox</p>
         <div class="tags">
@@ -31,7 +31,7 @@
       </div>
       <div class="discord app">
         <div class="img">
-          <img loading="lazy" class="logo" src="/assets/discord.png" />
+          <img loading="lazy" class="logo" src="discord.png" />
         </div>
         <p class="name">Discord</p>
         <div class="tags">
@@ -41,7 +41,7 @@
       </div>
       <div class="bitwarden app">
         <div class="img">
-          <img loading="lazy" class="logo" src="/assets/bitwarden.png" />
+          <img loading="lazy" class="logo" src="bitwarden.png" />
         </div>
         <p class="name">Bitwarden</p>
         <div class="tags">
@@ -51,7 +51,7 @@
       </div>
       <div class="vscode app">
         <div class="img">
-          <img loading="lazy" class="logo" src="/assets/vscode.png" />
+          <img loading="lazy" class="logo" src="vscode.png" />
         </div>
         <p class="name">VS Code</p>
         <div class="tags">
@@ -61,7 +61,7 @@
       </div>
       <div class="lunacy app">
         <div class="img">
-          <img loading="lazy" class="logo" src="/assets/lunacy.png" />
+          <img loading="lazy" class="logo" src="lunacy.png" />
         </div>
         <p class="name">Lunacy</p>
         <div class="tags">
@@ -71,7 +71,7 @@
       </div>
       <div class="twitter app">
         <div class="img">
-          <img loading="lazy" class="logo" src="/assets/twitter.png" />
+          <img loading="lazy" class="logo" src="twitter.png" />
         </div>
         <p class="name">Twitter</p>
         <div class="tags">
@@ -80,7 +80,7 @@
       </div>
       <div class="applemusic app">
         <div class="img">
-          <img loading="lazy" class="logo" src="/assets/applemusic.png" />
+          <img loading="lazy" class="logo" src="applemusic.png" />
         </div>
         <p class="name">Apple Music</p>
         <div class="tags">
@@ -89,7 +89,7 @@
       </div>
       <div class="intellij app">
         <div class="img">
-          <img loading="lazy" class="logo" src="/assets/intellij.png" />
+          <img loading="lazy" class="logo" src="intellij.png" />
         </div>
         <p class="name">IntelliJ Community</p>
         <div class="tags">
@@ -99,7 +99,7 @@
       </div>
       <div class="vercel app">
         <div class="img">
-          <img loading="lazy" class="logo" src="/assets/vercel.png" />
+          <img loading="lazy" class="logo" src="vercel.png" />
         </div>
         <p class="name">Vercel</p>
         <div class="tags">
@@ -109,7 +109,7 @@
       </div>
       <div class="terminal app">
         <div class="img">
-          <img loading="lazy" class="logo" src="/assets/terminal.png" />
+          <img loading="lazy" class="logo" src="terminal.png" />
         </div>
         <p class="name">Windows Terminal</p>
         <div class="tags">
@@ -119,7 +119,7 @@
       </div>
       <div class="notion app">
         <div class="img">
-          <img loading="lazy" class="logo" src="/assets/notion.png" />
+          <img loading="lazy" class="logo" src="notion.png" />
         </div>
         <p class="name">Notion</p>
         <div class="tags">
