@@ -2,7 +2,8 @@
   "hide-files.files": [
     ".gitignore",
     "README.md",
-    ".vscode"
+    ".vscode",
+    "node_modules"
   ],
   "files.exclude": {
     "**/.git": true,
@@ -11,10 +12,11 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
+    ".vscode/settings.json": true,
     ".gitignore": true,
     "README.md": true,
     ".vscode": true,
-    ".vscode/settings.json": true
+    "node_modules": true
   },
   "git.enableCommitSigning": false
 }
