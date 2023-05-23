@@ -9,7 +9,7 @@
     </div>
 
     <div class="apps">
-      <div class="flowlauncher app">
+      <a class="raycast app" href="https://raycast.com" target="_blank">
         <div class="img">
           <img loading="lazy" class="logo" src="../assets/raycast.png" />
         </div>
@@ -19,8 +19,8 @@
           <span class="tag">Workflow</span>
           <span class="tag">Shortcuts</span>
         </div>
-      </div>
-      <div class="firefox app">
+      </a>
+      <a class="arc app" href="https://arc.com" target="_blank">
         <div class="img">
           <img loading="lazy" class="logo" src="../assets/arc.png" />
         </div>
@@ -28,8 +28,8 @@
         <div class="tags">
           <span class="tag">Browser</span>
         </div>
-      </div>
-      <div class="discord app">
+      </a>
+      <a class="discord app" href="https://discord.com" target="_blank">
         <div class="img">
           <img loading="lazy" class="logo" src="../assets/discord.png" />
         </div>
@@ -38,8 +38,8 @@
           <span class="tag">Social</span>
           <span class="tag">Community</span>
         </div>
-      </div>
-      <div class="bitwarden app">
+      </a>
+      <a class="bitwarden app" href="https://bitwarden.com" target="_blank">
         <div class="img">
           <img loading="lazy" class="logo" src="../assets/bitwarden.png" />
         </div>
@@ -48,8 +48,8 @@
           <span class="tag">Password Manager</span>
           <span class="tag">Security</span>
         </div>
-      </div>
-      <div class="vscode app">
+      </a>
+      <a class="vscode app" href="https://code.visualstudio.com/" target="_blank">
         <div class="img">
           <img loading="lazy" class="logo" src="../assets/vscode.png" />
         </div>
@@ -58,8 +58,8 @@
           <span class="tag">Editor</span>
           <span class="tag">Development</span>
         </div>
-      </div>
-      <div class="lunacy app">
+      </a>
+      <a class="lunacy app" href="https://icons8.com/lunacy" target="_blank">
         <div class="img">
           <img loading="lazy" class="logo" src="../assets/lunacy.png" />
         </div>
@@ -68,8 +68,8 @@
           <span class="tag">Design</span>
           <span class="tag">UI/UX</span>
         </div>
-      </div>
-      <div class="twitter app">
+      </a>
+      <a class="twitter app" href="https://twitter.com/" target="_blank">
         <div class="img">
           <img loading="lazy" class="logo" src="../assets/twitter.png" />
         </div>
@@ -77,8 +77,8 @@
         <div class="tags">
           <span class="tag">Social</span>
         </div>
-      </div>
-      <div class="applemusic app">
+      </a>
+      <a class="applemusic app" href="https://applemusic.com/" target="_blank">
         <div class="img">
           <img loading="lazy" class="logo" src="../assets/applemusic.png" />
         </div>
@@ -86,8 +86,8 @@
         <div class="tags">
           <span class="tag">Music</span>
         </div>
-      </div>
-      <div class="intellij app">
+      </a>
+      <a class="intellij app" href="https://jetbrains.com/idea/download/" target="_blank">
         <div class="img">
           <img loading="lazy" class="logo" src="../assets/intellij.png" />
         </div>
@@ -96,8 +96,8 @@
           <span class="tag">Editor</span>
           <span class="tag">Development</span>
         </div>
-      </div>
-      <div class="vercel app">
+      </a>
+      <a class="vercel app" href="https://vercel.com/" target="_blank">
         <div class="img">
           <img loading="lazy" class="logo" src="../assets/vercel.png" />
         </div>
@@ -106,8 +106,8 @@
           <span class="tag">Hosting</span>
           <span class="tag">Development</span>
         </div>
-      </div>
-      <div class="terminal app">
+      </a>
+      <a class="iterm app" href="https://iterm2.com/" target="_blank">
         <div class="img">
           <img loading="lazy" class="logo" src="../assets/iterm.png" />
         </div>
@@ -116,8 +116,8 @@
           <span class="tag">Terminal</span>
           <span class="tag">Development</span>
         </div>
-      </div>
-      <div class="notion app">
+      </a>
+      <a class="notion app" href="https://notion.com/" target="_blank">
         <div class="img">
           <img loading="lazy" class="logo" src="../assets/notion.png" />
         </div>
@@ -126,7 +126,7 @@
           <span class="tag">Workflow</span>
           <span class="tag">Organization</span>
         </div>
-      </div>
+      </a>
     </div>
   </div>
   <navbar />
