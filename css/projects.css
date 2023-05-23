@@ -1,7 +1,7 @@
 @media (min-width: 600px) {
 
   /*for Desktop*/
-  .project {
+  /* .project {
     min-height: 200px;
     padding: 20px 20px;
   }
@@ -10,13 +10,13 @@
   .project-img img {
     height: 100%;
     width: 100px;
-  }
+  } */
 }
 
 @media (max-width: 600px) {
 
   /*for Mobile*/
-  .project {
+  /* .project {
     min-height: 180px;
     padding: 14px 14px;
   }
@@ -29,49 +29,69 @@
 
   .project .description {
     font-size: 14px;
-  }
+  } */
 }
 
-.content .projects {
+.projects {
   max-width: 900px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+* {
+  text-decoration: none !important;
+  color: white;
 }
 
 .project {
-  background-color: #1c1b1d;
-  border: 1px solid #313131ad;
+  background-color: hsl(270, 2%, 11%);
+  border: 1px solid rgba(49, 49, 49, 0.68);
   border-radius: 14px;
-  width: auto;
+  padding: 24px 24px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  width: 434px;
+  margin: 8px;
+  text-align: center;
+  text-decoration: none !important;
 }
 
-.project:not(:last-of-type) {
-  margin-bottom: 15px;
-}
-
-.project-name {
-  margin-bottom: 7px;
-  font-weight: 600;
-  font-size: 22px;
-}
-
-.project-img img {
-  border-radius: 9px;
+.project-tag {
+  background-color: hsl(270, 2%, 13%);
+  padding: 7px 14px;
+  border: 1px solid rgba(49, 49, 49, 0.68);
+  border-radius: 100px;
+  font-size: 14px;
+  color: #969696;
+  margin-inline: 5px;
+  white-space: nowrap;
+  width: min-content;
 }
 
 .project-img {
-  float: right;
-  margin-left: 8px;
+  width: 120px;
+  height: 120px;
+  justify-content: center;
+  display: flex;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
 }
 
-.secondary-title {
-  font-size: 14px;
-  margin-bottom: 5px;
-  color: #7c3de1;
-  font-family: monospace !important;
+.project-logo {
+  width: 100%;
+  border-radius: 28px;
+}
+
+.project-name {
+  margin-top: 20px;
   font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  margin-top: 16px;
 }
