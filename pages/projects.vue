@@ -8,55 +8,84 @@
     </div>
 
     <div class="projects">
-      <div class="project-1 project">
+      <a class="project-1 project" href="https://github.com/0pandadev/Nextron" target="_blank">
+        <div class="project-img">
+          <img class="project-logo" loading="lazy" src="../assets/nextron.jpg">
+        </div>
         <div class="text">
-          <p class="secondary-title">Work in progress</p>
           <p class="project-name">Nextron</p>
-          <p class="description">Nextron is a powerful Minecraft plugin built with the Spigot API. It's meant to be an
-            assistant to Minecraft server admins. Some of the features are custom GUIs for managing
-            the plugins systems, warps and homes which make it easy for every player to understand because there is no
-            complicated commands.</p>
+          <p class="description">The nextgeneration of Minecraft plugins</p>
+          <div class="tags">
+            <p class="project-tag">Work in progress</p>
+            <p class="project-tag">Plugin</p>
+          </div>
         </div>
+      </a>
+      <a class="project-2 project" href="https://github.com/0pandadev/ActionInfo" target="_blank">
         <div class="project-img">
-          <img loading="lazy" src="../assets/nextron.jpg">
+          <img class="project-logo" loading="lazy" src="../assets/nextron.jpg">
         </div>
-      </div>
-      <div class="project-2 project">
         <div class="text">
-          <p class="secondary-title">Early Development</p>
+          <p class="project-name">ActionInfo</p>
+          <p class="description">Display system informations in your Action Bar</p>
+          <div class="tags">
+            <p class="project-tag">Work in progress</p>
+            <p class="project-tag">Plugin</p>
+          </div>
+        </div>
+      </a>
+      <a class="project-3 project" href="https://github.com/0pandadev/SharedBackpacks" target="_blank">
+        <div class="project-img">
+          <img class="project-logo" loading="lazy" src="../assets/nextron.jpg">
+        </div>
+        <div class="text">
+          <p class="project-name">Shared Backpacks</p>
+          <p class="description">Create shared backpacks for sharing items</p>
+          <div class="tags">
+            <p class="project-tag">Work in progress</p>
+            <p class="project-tag">Plugin</p>
+          </div>
+        </div>
+      </a>
+      <a class="project-4 project" href="https://github.com/0pandadev/music-player" target="_blank">
+        <div class="project-img">
+          <img class="project-logo" loading="lazy" src="../assets/project.jpg">
+        </div>
+        <div class="text">
           <p class="project-name">Music Player</p>
-          <p class="description">A Music Player that is developed by me and Waradu. The mission with it, replace Spotify
-            and Apple Music with a free and open source alternative. At the moment it does not have a name or logo because
-            its in early development stage. The project is created using the Tauri framework (an alternative to Electron)
-            and React.</p>
+          <p class="description">A highly customizable music player</p>
+          <div class="tags">
+            <p class="project-tag">Early Development</p>
+            <p class="project-tag">App</p>
+          </div>
         </div>
+      </a>
+      <a class="project-5 project" href="https://modrinth.com/user/PandaDEV" target="_blank">
         <div class="project-img">
-          <img loading="lazy" src="../assets/project.jpg">
+          <img class="project-logo" loading="lazy" src="../assets/better.jpg">
         </div>
-      </div>
-      <div class="project-3 project">
         <div class="text">
-          <p class="secondary-title">Work in progress</p>
           <p class="project-name">Better Series</p>
-          <p class="description">It's series of Minecraft resourcepacks that enhance and tweak the game to it's best. For
-            example Better Leaves, Better Grass or Better Sky and it even has a modpack that aims to improve the
-            performance on really low end PC's.</p>
+          <p class="description">A series of usefull texturepacks for minecraft</p>
+          <div class="tags">
+            <p class="project-tag">Work in progress</p>
+            <p class="project-tag">Texturepacks</p>
+          </div>
         </div>
+      </a>
+      <a class="project-6 project" href="https://github.com/0pandadev/pandaclient" target="_blank">
         <div class="project-img">
-          <img loading="lazy" src="../assets/better.jpg">
+          <img class="project-logo" loading="lazy" src="../assets/pandaclient.jpg">
         </div>
-      </div>
-      <div class="project-4 project">
         <div class="text">
-          <p class="secondary-title">Canceled</p>
           <p class="project-name">Panda Client</p>
-          <p class="description">A minecraft 1.8.9 PVP client that should replace lunar client. It had features to display
-            important information's like FPS, CPS, or Keystrokes.</p>
+          <p class="description">A minecraft PVP client for 1.8.9</p>
+          <div class="tags">
+            <p class="project-tag">Canceled</p>
+            <p class="project-tag">Client</p>
+          </div>
         </div>
-        <div class="project-img">
-          <img loading="lazy" src="../assets/pandaclient.jpg">
-        </div>
-      </div>
+      </a>
     </div>
 
   </div>
