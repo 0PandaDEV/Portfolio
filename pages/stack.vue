@@ -11,9 +11,9 @@
     <div class="apps">
       <div class="flowlauncher app">
         <div class="img">
-          <img loading="lazy" class="logo" src="../assets/flowlauncher.png" />
+          <img loading="lazy" class="logo" src="../assets/raycast.png" />
         </div>
-        <p class="name">Flow Launcher</p>
+        <p class="name">Raycast</p>
         <div class="tags">
           <span class="tag">Launcher</span>
           <span class="tag">Workflow</span>
@@ -22,9 +22,9 @@
       </div>
       <div class="firefox app">
         <div class="img">
-          <img loading="lazy" class="logo" src="../assets/firefox.png" />
+          <img loading="lazy" class="logo" src="../assets/arc.png" />
         </div>
-        <p class="name">Firefox</p>
+        <p class="name">Arc</p>
         <div class="tags">
           <span class="tag">Browser</span>
         </div>
@@ -109,9 +109,9 @@
       </div>
       <div class="terminal app">
         <div class="img">
-          <img loading="lazy" class="logo" src="../assets/terminal.png" />
+          <img loading="lazy" class="logo" src="../assets/iterm.png" />
         </div>
-        <p class="name">Windows Terminal</p>
+        <p class="name">iTerm</p>
         <div class="tags">
           <span class="tag">Terminal</span>
           <span class="tag">Development</span>
@@ -133,121 +133,5 @@
 </template>
 
 <style>
-/*==============================*/
-
-@font-face {
-  font-family: Inter;
-  src: url("../assets/fonts/Inter.woff2") format("woff2");
-  font-display: swap;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
-  scroll-behavior: smooth;
-  scrollbar-width: thin;
-  scrollbar-color: #444446 #171618;
-  box-sizing: border-box;
-  font-family: Inter !important;
-}
-
-body {
-  background: rgb(23, 22, 24);
-  box-sizing: border-box;
-  text-rendering: optimizeLegibility;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  overflow-y: scroll;
-  padding-bottom: 120px;
-}
-
-.content {
-  display: flex;
-  max-width: 940px;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 20px;
-  flex-direction: column;
-}
-
-.apps {
-  max-width: 900px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.app {
-  margin: 8px;
-  background-color: hsl(270, 2%, 11%);
-  border: 1px solid rgba(49, 49, 49, 0.68);
-  border-radius: 14px;
-  width: auto;
-  height: 200px;
-  padding: 20px 20px;
-  display: flex;
-  flex-direction: column;
-  min-width: 200px;
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
-/*==============================*/
-
-.title {
-  line-height: 2;
-}
-
-.description {
-  color: #808080;
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 700px;
-  margin-bottom: 40px;
-}
-
-.img {
-  width: 60px;
-  height: 60px;
-  justify-content: center;
-  display: flex;
-  left: 50%;
-  position: relative;
-  transform: translateX(-50%);
-}
-
-.tag {
-  background-color: hsl(270, 2%, 13%);
-  padding: 7px 14px;
-  border: 1px solid rgba(49, 49, 49, 0.68);
-  border-radius: 100px;
-  font-size: 12px;
-  color: #969696;
-  margin-inline: 5px;
-}
-
-.tags {
-  display: flex;
-  margin-top: 20px;
-  white-space: nowrap;
-  justify-content: center;
-  width: 100%;
-}
-
-.name {
-  margin-top: 20px;
-  font-weight: 500;
-  font-size: 19px;
-  text-align: center;
-}
-
-img.logo {
-  width: 100%;
-}
+@import '~/css/stack.css';
 </style>
