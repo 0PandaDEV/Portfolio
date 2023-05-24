@@ -52,7 +52,7 @@
   padding: 24px 24px;
   display: flex;
   flex-direction: column;
-  width: max-content;
+  width: auto;
   text-align: center;
   text-decoration: none !important;
   flex-grow: 1;

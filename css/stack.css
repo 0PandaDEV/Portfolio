@@ -49,11 +49,11 @@ body {
   background-color: hsl(270, 2%, 11%);
   border: 1px solid rgba(49, 49, 49, 0.68);
   border-radius: 14px;
-  width: auto;
-  height: 200px;
   padding: 20px 20px;
   display: flex;
   flex-direction: column;
+  width: auto;
+  height: 200px;
   min-width: 200px;
   flex-grow: 1;
   flex-shrink: 1;
