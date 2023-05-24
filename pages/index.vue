@@ -3,24 +3,28 @@
   <div class="center">
     <div class="hero">
       <img src="/logo.png" alt="logo" class="mainlogo" />
-      <p class="forword">Hi, I'm PandaDEV</p>
+      <p class="forword_outer">
+        <span class="forword">Hi, </span
+        ><span class="forword reveal_after_logo">I'm PandaDEV</span>
+      </p>
       <h1 class="h1">Creating Minecraft plugins and websites.</h1>
-      <h2 class="h2">I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.</h2>
-      <nuxt-link to="/projects">
-        <div class="button">
-          SEE MY WORK
-        </div>
-      </nuxt-link>
+      <h2 class="h2">
+        I'm a Developer specialized in java and web development. Also, I'm
+        learning UI/UX Design.
+      </h2>
+      <div class="btn_container">
+        <nuxt-link to="/projects">
+          <div class="button">SEE MY WORK</div>
+        </nuxt-link>
+      </div>
     </div>
   </div>
   <navbar />
 </template>
 
-<script lang="ts">
-
-</script>
+<script lang="ts"></script>
 
 <style>
-@import '~/global.css';
-@import '~/css/index.css';
+@import "~/global.css";
+@import "~/css/index.css";
 </style>
