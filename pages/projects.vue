@@ -104,5 +104,6 @@ useHead({
 </script>
 
 <style>
+@import '../global.css';
 @import '~/css/projects.css';
 </style>

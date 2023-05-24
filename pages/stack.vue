@@ -142,5 +142,6 @@ useHead({
 </script>
 
 <style>
+@import '~/global.css';
 @import '~/css/stack.css';
 </style>

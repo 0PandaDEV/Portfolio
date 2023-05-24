@@ -6,8 +6,6 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       title: "PandaDEV"
     },
-    meta: [
-    { name: 'description', content: "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design." }
-  ],
-  }
+  },
+  css: ["~/global.css"]
 })

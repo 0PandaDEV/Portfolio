@@ -17,8 +17,10 @@
 </template>
 
 <script lang="ts">
+
 </script>
 
 <style>
+@import '~/global.css';
 @import '~/css/index.css';
 </style>
