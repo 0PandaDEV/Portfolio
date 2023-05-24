@@ -127,6 +127,37 @@
           <span class="tag">Organization</span>
         </div>
       </a>
+      <a class="pika app" href="https://github.com/superhighfives/pika" target="_blank">
+        <div class="img">
+          <img loading="lazy" class="logo" src="/pika.png" />
+        </div>
+        <p class="name">Pika</p>
+        <div class="tags">
+          <span class="tag">Color</span>
+          <span class="tag">Workflow</span>
+        </div>
+      </a>
+      <a class="nextdns app" href="https://nextdns.io/" target="_blank">
+        <div class="img">
+          <img loading="lazy" class="logo" src="/nextdns.png" />
+        </div>
+        <p class="name">NextDNS</p>
+        <div class="tags">
+          <span class="tag">Security</span>
+          <span class="tag">DNS</span>
+          <span class="tag">Network</span>
+        </div>
+      </a>
+      <a class="libresprite app" href="https://libresprite.github.io/" target="_blank">
+        <div class="img">
+          <img loading="lazy" class="logo" src="/libresprite.png" />
+        </div>
+        <p class="name">Libresprite</p>
+        <div class="tags">
+          <span class="tag">Pixel Art</span>
+          <span class="tag">Design</span>
+        </div>
+      </a>
     </div>
   </div>
   <navbar />
@@ -136,11 +167,11 @@
 useSeoMeta({
   ogTitle: 'PandaDEV',
   ogDescription: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as an Java and Web developer.",
-  ogImage: '/public/logo.png',
+  ogImage: '/logo.png',
   ogUrl: 'https://pandadev.tk/projects',
   twitterTitle: 'PandaDEV',
   twitterDescription: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as an Java and Web developer.",
-  twitterImage: '/public/logo.png',
+  twitterImage: '/logo.png',
   twitterCard: 'summary'
 })
 
@@ -156,7 +187,7 @@ useHead({
     {
       rel: 'icon',
       type: 'image/png',
-      href: '/public/logo.png'
+      href: '/logo.png'
     }
   ]
 })
