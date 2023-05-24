@@ -12,5 +12,8 @@
   "devDependencies": {
     "@types/node": "^18",
     "nuxt": "^3.5.1"
+  },
+  "dependencies": {
+    "sass": "^1.62.1"
   }
 }
