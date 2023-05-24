@@ -55,6 +55,25 @@
   margin: 8px;
   text-align: center;
   text-decoration: none !important;
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.projects .project:not(:hover) .project-img img.project-logo {
+  filter: grayscale(100%) brightness(70%);
+  transform: scale(1);
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.projects .project:hover {
+  filter: none;
+  transform: scale(1.03);
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.projects:not(:hover) .project .project-img img.project-logo {
+  filter: none;
+  transform: scale(1);
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .project-tag {

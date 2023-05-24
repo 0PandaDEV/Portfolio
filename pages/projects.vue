@@ -23,7 +23,7 @@
       </a>
       <a class="project-2 project" href="https://github.com/0pandadev/ActionInfo" target="_blank">
         <div class="project-img">
-          <img class="project-logo" loading="lazy" src="../assets/nextron.jpg">
+          <img class="project-logo" loading="lazy" src="../assets/actioninfo.jpeg">
         </div>
         <div class="text">
           <p class="project-name">ActionInfo</p>
@@ -36,7 +36,7 @@
       </a>
       <a class="project-3 project" href="https://github.com/0pandadev/SharedBackpacks" target="_blank">
         <div class="project-img">
-          <img class="project-logo" loading="lazy" src="../assets/nextron.jpg">
+          <img class="project-logo" loading="lazy" src="../assets/sharedbackpacks.jpeg">
         </div>
         <div class="text">
           <p class="project-name">Shared Backpacks</p>

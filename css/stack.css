@@ -57,6 +57,25 @@ body {
   min-width: 200px;
   flex-grow: 1;
   flex-shrink: 1;
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.apps .app:not(:hover) .img img.logo {
+  filter: grayscale(100%) brightness(70%);
+  transform: scale(1);
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.apps .app:hover {
+  filter: none;
+  transform: scale(1.05);
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.apps:not(:hover) .app .img img.logo {
+  filter: none;
+  transform: scale(1);
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 /*==============================*/
