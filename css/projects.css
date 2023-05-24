@@ -37,6 +37,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 16px;
 }
 
 * {
@@ -51,10 +52,11 @@
   padding: 24px 24px;
   display: flex;
   flex-direction: column;
-  width: 434px;
-  margin: 8px;
+  width: max-content;
   text-align: center;
   text-decoration: none !important;
+  flex-grow: 1;
+  flex-shrink: 1;
   transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 

@@ -40,12 +40,12 @@ body {
 .apps {
   max-width: 900px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 16px;
 }
 
 .app {
-  margin: 8px;
   background-color: hsl(270, 2%, 11%);
   border: 1px solid rgba(49, 49, 49, 0.68);
   border-radius: 14px;
@@ -79,10 +79,6 @@ body {
 }
 
 /*==============================*/
-
-.title {
-  line-height: 2;
-}
 
 .description {
   color: #808080;
