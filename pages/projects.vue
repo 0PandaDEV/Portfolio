@@ -14,7 +14,7 @@
         </div>
         <div class="text">
           <p class="project-name">Nextron</p>
-          <p class="description">The nextgeneration of Minecraft plugins</p>
+          <p class="description">The next generation of Minecraft plugins</p>
           <div class="tags">
             <p class="project-tag">Work in progress</p>
             <p class="project-tag">Plugin</p>
@@ -96,11 +96,11 @@
 useSeoMeta({
   ogTitle: 'PandaDEV',
   ogDescription: "Discover all of my projects that I've done or been working on until now.",
-  ogImage: '/public/logo.png',
+  ogImage: '/logo.png',
   ogUrl: 'https://pandadev.tk/projects',
   twitterTitle: 'PandaDEV',
   twitterDescription: "Discover all of my projects that I've done or been working on until now.",
-  twitterImage: '/public/logo.png',
+  twitterImage: '/logo.png',
   twitterCard: 'summary'
 })
 
@@ -116,7 +116,7 @@ useHead({
     {
       rel: 'icon',
       type: 'image/png',
-      href: '/public/logo.png'
+      href: '/logo.png'
     }
   ]
 })
