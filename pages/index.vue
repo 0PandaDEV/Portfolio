@@ -19,6 +19,7 @@
       </div>
     </div>
   </div>
+  <a href="https://waradu.tk" target="_blank" class="credits">In cooperation with Waradu</a>
   <navbar />
 </template>
 

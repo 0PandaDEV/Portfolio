@@ -159,3 +159,12 @@ a {
 .button {
   animation: reveal_logo .5s cubic-bezier(0, 0.43, 0.39, 1.5) 2.2s 1 both;
 }
+
+.credits {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 10px;
+  font-weight: 200;
+  color: #575658;
+}
