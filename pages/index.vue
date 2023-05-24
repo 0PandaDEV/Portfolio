@@ -21,7 +21,7 @@
   <navbar />
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 useSeoMeta({
   ogTitle: 'PandaDEV',
   ogDescription: "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.",
