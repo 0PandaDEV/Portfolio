@@ -25,11 +25,11 @@
 useSeoMeta({
   ogTitle: 'PandaDEV',
   ogDescription: "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.",
-  ogImage: '/public/logo.png',
+  ogImage: '/logo.png',
   ogUrl: 'https://pandadev.tk/projects',
   twitterTitle: 'PandaDEV',
   twitterDescription: "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.",
-  twitterImage: '/public/logo.png',
+  twitterImage: '/logo.png',
   twitterCard: 'summary'
 })
 
@@ -45,7 +45,7 @@ useHead({
     {
       rel: 'icon',
       type: 'image/png',
-      href: '/public/logo.png'
+      href: '/logo.png'
     }
   ]
 })
