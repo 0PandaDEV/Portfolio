@@ -96,12 +96,10 @@
 useHead({
   title: 'PandaDEV - Projects',
   meta: [
-    { name: 'description', content: 'My amazing site.' }
+    {
+      name: 'description', content: "Discover all of my projects that I've done or been working on until now."
+    }
   ],
-  bodyAttrs: {
-    class: 'test'
-  },
-  script: [{ innerHTML: 'console.log(\'Hello world\')' }]
 })
 </script>
 
