@@ -122,6 +122,7 @@ a {
     scale: 0;
     opacity: 0;
   }
+
   to {
     scale: 1;
     opacity: 1;
@@ -133,6 +134,7 @@ a {
     translate: 0 20px;
     opacity: 0;
   }
+
   to {
     translate: 0 0px;
     opacity: 1;
@@ -145,26 +147,26 @@ a {
 }
 
 .mainlogo {
-  animation: reveal_logo .5s cubic-bezier(0, 0.43, 0.39, 1.5) .2s 1 both;
+  animation: reveal_logo .5s cubic-bezier(0, 0.43, 0.39, 1.5) .1s 1 both;
 }
 
 .forword {
-  animation: bottom_top .5s cubic-bezier(0, 0.43, 0.39, 2) .7s 1 both;
+  animation: bottom_top .5s cubic-bezier(0, 0.43, 0.39, 2) .2s 1 both;
 }
 
 .reveal_after_logo {
   margin-left: 10px;
-  animation: bottom_top .5s cubic-bezier(0, 0.43, 0.39, 2) 1s 1 both;
+  animation: bottom_top .5s cubic-bezier(0, 0.43, 0.39, 2) .5s 1 both;
 }
 
 .h1 {
-  animation: bottom_top .5s cubic-bezier(0, 0.43, 0.39, 2) 1.5s 1 both;
+  animation: bottom_top .5s cubic-bezier(0, 0.43, 0.39, 2) .8s 1 both;
 }
 
 .h2 {
-  animation: bottom_top .5s cubic-bezier(0, 0.43, 0.39, 2) 1.7s 1 both;
+  animation: bottom_top .5s cubic-bezier(0, 0.43, 0.39, 2) 1s 1 both;
 }
 
 .button {
-  animation: reveal_logo .5s cubic-bezier(0, 0.43, 0.39, 1.5) 2.2s 1 both;
+  animation: reveal_logo .5s cubic-bezier(0, 0.43, 0.39, 1.5) 1.2s 1 both;
 }
