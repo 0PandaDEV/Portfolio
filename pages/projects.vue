@@ -10,7 +10,7 @@
     <div class="projects">
       <a class="project-1 project" href="https://github.com/0pandadev/Nextron" target="_blank">
         <div class="project-img">
-          <img class="project-logo" loading="lazy" src="../assets/nextron.jpg">
+          <img class="project-logo" loading="lazy" src="/nextron.jpg">
         </div>
         <div class="text">
           <p class="project-name">Nextron</p>
@@ -23,7 +23,7 @@
       </a>
       <a class="project-2 project" href="https://github.com/0pandadev/ActionInfo" target="_blank">
         <div class="project-img">
-          <img class="project-logo" loading="lazy" src="../assets/actioninfo.jpeg">
+          <img class="project-logo" loading="lazy" src="/actioninfo.jpeg">
         </div>
         <div class="text">
           <p class="project-name">ActionInfo</p>
@@ -36,7 +36,7 @@
       </a>
       <a class="project-3 project" href="https://github.com/0pandadev/SharedBackpacks" target="_blank">
         <div class="project-img">
-          <img class="project-logo" loading="lazy" src="../assets/sharedbackpacks.jpeg">
+          <img class="project-logo" loading="lazy" src="/sharedbackpacks.jpeg">
         </div>
         <div class="text">
           <p class="project-name">Shared Backpacks</p>
@@ -49,7 +49,7 @@
       </a>
       <a class="project-4 project" href="https://github.com/0pandadev/music-player" target="_blank">
         <div class="project-img">
-          <img class="project-logo" loading="lazy" src="../assets/project.jpg">
+          <img class="project-logo" loading="lazy" src="/project.jpg">
         </div>
         <div class="text">
           <p class="project-name">Music Player</p>
@@ -62,7 +62,7 @@
       </a>
       <a class="project-5 project" href="https://modrinth.com/user/PandaDEV" target="_blank">
         <div class="project-img">
-          <img class="project-logo" loading="lazy" src="../assets/better.jpg">
+          <img class="project-logo" loading="lazy" src="/better.jpg">
         </div>
         <div class="text">
           <p class="project-name">Better Series</p>
@@ -75,7 +75,7 @@
       </a>
       <a class="project-6 project" href="https://github.com/0pandadev/pandaclient" target="_blank">
         <div class="project-img">
-          <img class="project-logo" loading="lazy" src="../assets/pandaclient.jpg">
+          <img class="project-logo" loading="lazy" src="/pandaclient.jpg">
         </div>
         <div class="text">
           <p class="project-name">Panda Client</p>
@@ -92,7 +92,17 @@
   <navbar />
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
+useHead({
+  title: 'PandaDEV - Projects',
+  meta: [
+    { name: 'description', content: 'My amazing site.' }
+  ],
+  bodyAttrs: {
+    class: 'test'
+  },
+  script: [{ innerHTML: 'console.log(\'Hello world\')' }]
+})
 </script>
 
 <style>

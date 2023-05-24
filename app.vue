@@ -9,7 +9,7 @@
 <style>
 @font-face {
   font-family: Inter;
-  src: url("../assets/fonts/Inter.woff2") format("woff2");
+  src: url("/Inter.woff2") format("woff2");
   font-display: swap;
 }
 

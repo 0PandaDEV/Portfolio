@@ -2,7 +2,7 @@
   <div class="bg"></div>
   <div class="center">
     <div class="hero">
-      <img src="../assets/logo.png" alt="logo" class="mainlogo" />
+      <img src="/logo.png" alt="logo" class="mainlogo" />
       <p class="forword">Hi, I'm PandaDEV</p>
       <h1 class="h1">Creating Minecraft plugins and websites.</h1>
       <h2 class="h2">I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.</h2>
