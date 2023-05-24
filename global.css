@@ -41,3 +41,9 @@ body {
 a {
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding-bottom: 60px;
+  }
+}
