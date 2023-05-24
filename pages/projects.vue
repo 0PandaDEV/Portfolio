@@ -73,7 +73,7 @@
           </div>
         </div>
       </a>
-      <a class="project-6 project" href="https://github.com/0pandadev/pandaclient" target="_blank">
+      <a class="project-6 project">
         <div class="project-img">
           <img class="project-logo" loading="lazy" src="/pandaclient.jpg">
         </div>
