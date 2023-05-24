@@ -5,7 +5,7 @@
 <style>
 @font-face {
   font-family: Inter;
-  src: url("/Inter.woff2") format("woff2");
+  src: url("/Inter.woff2");
   font-display: swap;
 }
 
@@ -17,5 +17,6 @@
   scrollbar-color: #444446 #171618;
   box-sizing: border-box;
   font-family: Inter !important;
+  text-rendering: optimizeLegibility;
 }
 </style>
