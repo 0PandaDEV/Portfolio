@@ -4,8 +4,11 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      title: "PandaDEV"
+      title: "PandaDEV",
     },
   },
-  css: ["~/global.css"]
+  css: ["~/global.css"],
+  devtools: {
+    enabled: true
+  }
 })

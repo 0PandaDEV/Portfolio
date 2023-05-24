@@ -93,17 +93,36 @@
 </template>
 
 <script setup lang="ts">
+useSeoMeta({
+  ogTitle: 'PandaDEV',
+  ogDescription: "Discover all of my projects that I've done or been working on until now.",
+  ogImage: '/public/logo.png',
+  ogUrl: 'https://pandadev.tk/projects',
+  twitterTitle: 'PandaDEV',
+  twitterDescription: "Discover all of my projects that I've done or been working on until now.",
+  twitterImage: '/public/logo.png',
+  twitterCard: 'summary'
+})
+
 useHead({
   title: 'PandaDEV - Projects',
-  meta: [
+  meta: [{
+    name: 'description', content: "Discover all of my projects that I've done or been working on until now."
+  }],
+  htmlAttrs: {
+    lang: 'en'
+  },
+  link: [
     {
-      name: 'description', content: "Discover all of my projects that I've done or been working on until now."
+      rel: 'icon',
+      type: 'image/png',
+      href: '/public/logo.png'
     }
-  ],
+  ]
 })
 </script>
 
 <style>
-@import '../global.css';
+@import '~/global.css';
 @import '~/css/projects.css';
 </style>

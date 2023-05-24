@@ -133,11 +133,32 @@
 </template>
 
 <script setup lang="ts">
+useSeoMeta({
+  ogTitle: 'PandaDEV',
+  ogDescription: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as an Java and Web developer.",
+  ogImage: '/public/logo.png',
+  ogUrl: 'https://pandadev.tk/projects',
+  twitterTitle: 'PandaDEV',
+  twitterDescription: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as an Java and Web developer.",
+  twitterImage: '/public/logo.png',
+  twitterCard: 'summary'
+})
+
 useHead({
   title: 'PandaDEV - Stack',
-  meta: [
-    { name: 'description', content: 'Discover all the apps and tools I use to complete my tasks and create my daily workflow, as an Java and Web developer.' }
-  ],
+  meta: [{
+    name: 'description', content: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as an Java and Web developer."
+  }],
+  htmlAttrs: {
+    lang: 'en'
+  },
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/public/logo.png'
+    }
+  ]
 })
 </script>
 
