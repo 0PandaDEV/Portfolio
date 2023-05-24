@@ -66,7 +66,7 @@ body {
   place-items: center;
 }
 
-@media (max-height: 693px) {
+/* @media (max-height: 693px) {
   .center {
     margin-top: 50px;
   }
@@ -74,7 +74,7 @@ body {
   .bg {
     min-height: 120vh;
   }
-}
+} */
 
 .mainlogo {
   height: clamp(130px, 10vw, 180px);
