@@ -35,15 +35,6 @@
   }
 } */
 
-.credits {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  font-size: 10px;
-  font-weight: 200;
-  color: #575658;
-}
-
 .mainlogo {
   height: clamp(130px, 10vw, 180px);
   border-radius: 1000px;
