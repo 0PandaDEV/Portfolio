@@ -10,5 +10,11 @@ export default defineNuxtConfig({
   css: ["~/global.css"],
   devtools: {
     enabled: true
-  }
+  },
+  modules: [
+    'nuxt-simple-sitemap',
+  ],
+  sitemap: {
+    siteUrl: 'https://pandadev.tk',
+  },
 })
