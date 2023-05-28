@@ -127,13 +127,13 @@
           <span class="tag">Organization</span>
         </div>
       </a>
-      <a class="pika app" href="https://github.com/superhighfives/pika" target="_blank">
+      <a class="shottr app" href="https://shottr.cc/" target="_blank">
         <div class="img">
-          <img loading="lazy" class="logo" src="/pika.png" />
+          <img loading="lazy" class="logo" src="/shottr.png" />
         </div>
-        <p class="name">Pika</p>
+        <p class="name">Shottr</p>
         <div class="tags">
-          <span class="tag">Color</span>
+          <span class="tag">Screenshot</span>
           <span class="tag">Workflow</span>
         </div>
       </a>
