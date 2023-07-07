@@ -8,7 +8,7 @@
     </div>
 
     <div class="projects">
-      <a class="project-1 project" href="https://github.com/0pandadev/Nextron" target="_blank">
+      <a class="project-1 project" href="https://essentialsp.tk" target="_blank">
         <div class="project-img">
           <img class="project-logo" loading="lazy" src="/nextron.jpg">
         </div>
