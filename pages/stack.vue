@@ -107,11 +107,11 @@
           <span class="tag">Development</span>
         </div>
       </a>
-      <a class="iterm app" href="https://iterm2.com/" target="_blank">
+      <a class="iterm app" href="https://hyper.is/" target="_blank">
         <div class="img">
-          <img loading="lazy" class="logo" src="/iterm.png" />
+          <img loading="lazy" class="logo" src="/hyper.png" />
         </div>
-        <p class="name">iTerm</p>
+        <p class="name">Hyper</p>
         <div class="tags">
           <span class="tag">Terminal</span>
           <span class="tag">Development</span>
@@ -156,6 +156,26 @@
         <div class="tags">
           <span class="tag">Pixel Art</span>
           <span class="tag">Design</span>
+        </div>
+      </a>
+      <a class="photoshop app" href="https://adobe.com/" target="_blank">
+        <div class="img">
+          <img loading="lazy" class="logo" src="/photoshop.png" />
+        </div>
+        <p class="name">Photoshop</p>
+        <div class="tags">
+          <span class="tag">Graphics</span>
+          <span class="tag">Design</span>
+        </div>
+      </a>
+      <a class="beeper app" href="https://www.beeper.com/" target="_blank">
+        <div class="img">
+          <img loading="lazy" class="logo" src="/beeper.png" />
+        </div>
+        <p class="name">Beeper</p>
+        <div class="tags">
+          <span class="tag">Cominucation</span>
+          <span class="tag">Social</span>
         </div>
       </a>
     </div>

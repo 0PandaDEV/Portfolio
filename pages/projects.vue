@@ -21,7 +21,20 @@
           </div>
         </div>
       </a>
-      <a class="project-2 project" href="https://github.com/0pandadev/ActionInfo" target="_blank">
+      <a class="project-2 project" href="https://github.com/zexon-app/Zexon" target="_blank">
+        <div class="project-img">
+          <img class="project-logo" loading="lazy" src="/zexon.jpeg">
+        </div>
+        <div class="text">
+          <p class="project-name">Zexon</p>
+          <p class="description">A highly customizable music app</p>
+          <div class="tags">
+            <p class="project-tag">Early Development</p>
+            <p class="project-tag">App</p>
+          </div>
+        </div>
+      </a>
+      <a class="project-3 project" href="https://github.com/0pandadev/ActionInfo" target="_blank">
         <div class="project-img">
           <img class="project-logo" loading="lazy" src="/actioninfo.jpeg">
         </div>
@@ -34,7 +47,7 @@
           </div>
         </div>
       </a>
-      <a class="project-3 project" href="https://github.com/0pandadev/SharedBackpacks" target="_blank">
+      <a class="project-4 project" href="https://github.com/0pandadev/SharedBackpacks" target="_blank">
         <div class="project-img">
           <img class="project-logo" loading="lazy" src="/sharedbackpacks.jpeg">
         </div>
@@ -44,19 +57,6 @@
           <div class="tags">
             <p class="project-tag">Work in progress</p>
             <p class="project-tag">Plugin</p>
-          </div>
-        </div>
-      </a>
-      <a class="project-4 project" href="https://github.com/0pandadev/music-player" target="_blank">
-        <div class="project-img">
-          <img class="project-logo" loading="lazy" src="/project.jpg">
-        </div>
-        <div class="text">
-          <p class="project-name">Music Player</p>
-          <p class="description">A highly customizable music player</p>
-          <div class="tags">
-            <p class="project-tag">Early Development</p>
-            <p class="project-tag">App</p>
           </div>
         </div>
       </a>
