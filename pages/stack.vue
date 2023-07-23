@@ -107,11 +107,11 @@
           <span class="tag">Development</span>
         </div>
       </a>
-      <a class="iterm app" href="https://hyper.is/" target="_blank">
+      <a class="warp app" href="https://www.warp.dev/" target="_blank">
         <div class="img">
-          <img loading="lazy" class="logo" src="/hyper.png" />
+          <img loading="lazy" class="logo" src="/warp.png" />
         </div>
-        <p class="name">Hyper</p>
+        <p class="name">Warp</p>
         <div class="tags">
           <span class="tag">Terminal</span>
           <span class="tag">Development</span>
