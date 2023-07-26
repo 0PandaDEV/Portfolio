@@ -4,7 +4,7 @@
       <h1 class="title">Stack</h1>
       <p class="description">
         Discover all the apps and tools I use to complete my tasks and create my
-        daily workflow, as an Java and Web developer.
+        daily workflow, as a Java and Web developer.
       </p>
     </div>
 
@@ -186,11 +186,11 @@
 <script setup lang="ts">
 useSeoMeta({
   ogTitle: 'PandaDEV',
-  ogDescription: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as an Java and Web developer.",
+  ogDescription: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as a Java and Web developer.",
   ogImage: '/logo.png',
   ogUrl: 'https://pandadev.tk/projects',
   twitterTitle: 'PandaDEV',
-  twitterDescription: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as an Java and Web developer.",
+  twitterDescription: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as a Java and Web developer.",
   twitterImage: '/logo.png',
   twitterCard: 'summary'
 })
@@ -198,7 +198,7 @@ useSeoMeta({
 useHead({
   title: 'PandaDEV - Stack',
   meta: [{
-    name: 'description', content: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as an Java and Web developer."
+    name: 'description', content: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as a Java and Web developer."
   }],
   htmlAttrs: {
     lang: 'en'
