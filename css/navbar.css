@@ -1,0 +1,92 @@
+.navbar {
+  z-index: 100;
+  display: flex;
+  gap: clamp(4px, 1.2vw, 10px);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+  bottom: 50px;
+  transform: translate(-50%, 0%);
+  background-color: hsla(270, 7%, 11%, 0.6);
+  padding: 8px 8px;
+  border-radius: 24px;
+  border: 1px solid rgba(49, 49, 49, 0.68);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+}
+
+.divider {
+  background-color: rgba(49, 49, 49, 0.68);
+  width: 1px;
+  height: 40px;
+}
+
+.icon {
+  width: clamp(46px, 8.3vw, 52px);
+  height: clamp(46px, 8.3vw, 52px);
+  padding: 13px 13px;
+}
+
+.icon svg {
+  width: clamp(20px, 4vw, 26px);
+  height: clamp(20px, 4vw, 26px);
+}
+
+.icon:hover>.hover {
+  opacity: 1;
+  top: -30px;
+}
+
+.router-link-active>.icon {
+  background-color: hsl(263, 73%, 56%);
+  border-radius: 18px;
+  color: #303030;
+}
+
+.navLink:hover:not(.router-link-active)>.icon {
+  background-color: #2726299a;
+  border-radius: 18px;
+  transition: background-color 0.2s;
+}
+
+.nlIcon:hover {
+  background-color: #2726299a;
+  border-radius: 18px;
+  transition: background-color 0.2s;
+}
+
+.selected {
+  background-color: hsl(263, 73%, 56%);
+  border-radius: 18px;
+  color: #303030;
+}
+
+.hover {
+  opacity: 0;
+  text-align: center;
+  position: absolute;
+  transform: translateX(-30%);
+  top: -20px;
+  z-index: 10;
+  background-color: white;
+  color: #171618;
+  border-radius: 8px;
+  padding: 3px;
+  padding-inline: 6px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #444446 #171618;
+  box-sizing: border-box;
+  font-family: Inter !important;
+}

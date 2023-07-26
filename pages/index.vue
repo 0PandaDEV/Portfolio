@@ -8,7 +8,7 @@
       </p>
       <h1 class="h1">Building Minecraft plugins and webapps.</h1>
       <h2 class="h2">
-        I'm a Developer specialized in java and web development. Also, I'm
+        I'm a Developer specialized in Java and Web development. I'm also
         learning UI/UX Design.
       </h2>
       <div class="btn_container">
@@ -52,6 +52,5 @@ useHead({
 </script>
 
 <style>
-@import "~/global.css";
 @import "~/css/index.css";
 </style>

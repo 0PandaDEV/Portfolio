@@ -14,8 +14,6 @@ export default defineNuxtConfig({
       ],
     },
   },
-  css: ["~/global.css"],
   devtools: { enabled: true },
   modules: ["nuxt-simple-sitemap", "@nuxtjs/robots"],
-  sitemap: { siteUrl: "https://pandadev.tk" },
 });

@@ -19,4 +19,15 @@
   font-family: Inter !important;
   text-rendering: optimizeLegibility;
 }
+
+body {
+  background: #171618;
+  box-sizing: border-box;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow-y: scroll;
+  padding-bottom: 120px;
+}
 </style>
