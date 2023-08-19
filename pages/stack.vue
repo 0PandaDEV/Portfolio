@@ -69,11 +69,11 @@
           <span class="tag">UI/UX</span>
         </div>
       </a>
-      <a class="twitter app" href="https://twitter.com/" target="_blank">
+      <a class="x app" href="https://x.com/" target="_blank">
         <div class="img">
-          <img loading="lazy" class="logo" src="/twitter.png" />
+          <img loading="lazy" class="logo" src="/x.png" />
         </div>
-        <p class="name">Twitter</p>
+        <p class="name">X</p>
         <div class="tags">
           <span class="tag">Social</span>
         </div>

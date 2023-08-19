@@ -71,6 +71,10 @@
   border-radius: 28px;
 }
 
+.vleer{
+  border-radius: none !important;
+}
+
 .project-name {
   margin-top: 20px;
   font-weight: 600;

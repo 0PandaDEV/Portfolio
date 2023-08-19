@@ -14,20 +14,20 @@
         </div>
         <div class="text">
           <p class="project-name">Nextron</p>
-          <p class="description">The next generation of Minecraft plugins</p>
+          <p class="description">The next generation of a Minecraft plugin</p>
           <div class="tags">
             <p class="project-tag">Work in progress</p>
             <p class="project-tag">Plugin</p>
           </div>
         </div>
       </a>
-      <a class="project-2 project" href="https://github.com/zexon-app/Zexon" target="_blank">
+      <a class="project-2 project" href="https://github.com/vleer-app/Vleer" target="_blank">
         <div class="project-img">
-          <img class="project-logo" loading="lazy" src="/zexon.jpeg">
+          <img class="project-logo vleer" loading="lazy" src="/vleer.png">
         </div>
         <div class="text">
-          <p class="project-name">Zexon</p>
-          <p class="description">A highly customizable music app</p>
+          <p class="project-name">Vleer</p>
+          <p class="description">A free and open source Music app</p>
           <div class="tags">
             <p class="project-tag">Early Development</p>
             <p class="project-tag">App</p>
