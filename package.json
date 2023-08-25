@@ -11,11 +11,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.8.0",
-    "@types/node": "^20.5.1",
+    "@types/node": "^20.5.6",
+    "@vite-pwa/nuxt": "^0.1.0",
     "nuxt": "^3.6.5"
   },
   "dependencies": {
     "@nuxtjs/robots": "^3.0.0",
-    "nuxt-simple-sitemap": "^3.1.8"
+    "nuxt-simple-sitemap": "^3.2.5"
   }
 }

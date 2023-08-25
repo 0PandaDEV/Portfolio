@@ -15,5 +15,18 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: true },
-  modules: ["nuxt-simple-sitemap", "@nuxtjs/robots"],
+  modules: ["nuxt-simple-sitemap", "@nuxtjs/robots", "@vite-pwa/nuxt"],
+  pwa: {
+    manifest: {
+      short_name: "PandaDEV Portfolio",
+      name: "PandaDEV Portfolio",
+      description: "A portfolio for my projects and tech stack",
+      theme_color: "#7c3de1",
+      background_color: "#171618",
+      display: "fullscreen",
+      scope: "./",
+      start_url: "./",
+      lang: "en",
+    },
+  },
 });

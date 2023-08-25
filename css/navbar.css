@@ -42,7 +42,7 @@
 }
 
 .router-link-active>.icon {
-  background-color: hsl(263, 73%, 56%);
+  background-color: #7c3de1;
   border-radius: 18px;
   color: #303030;
 }
