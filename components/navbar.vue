@@ -88,7 +88,4 @@
   </div>
 </template>
 
-<script>
-</script>
-
 <style>@import '~/css/navbar.css';</style>
