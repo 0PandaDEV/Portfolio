@@ -21,7 +21,7 @@
           </div>
         </div>
       </a>
-      <a class="project-2 project" href="https://github.com/vleer-app" target="_blank">
+      <a class="project-2 project" href="https://github.com/vleerapp" target="_blank">
         <div class="project-img">
           <img class="project-logo vleer" loading="lazy" src="/vleer.png">
         </div>
