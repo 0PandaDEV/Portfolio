@@ -19,4 +19,7 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   modules: ["nuxt-simple-sitemap", "@nuxtjs/robots"],
+  site: {
+    url: "https://pandadev.tk",
+  },
 });
