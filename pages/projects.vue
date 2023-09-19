@@ -94,21 +94,20 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  ogTitle: 'PandaDEV',
+  title: "Projects",
+  description: "Discover all of my projects that I've done or been working on until now.",
+  ogTitle: 'Projects',
   ogDescription: "Discover all of my projects that I've done or been working on until now.",
   ogImage: '/logo.png',
   ogUrl: 'https://pandadev.tk/projects',
-  twitterTitle: 'PandaDEV',
+  twitterTitle: 'Projects',
   twitterDescription: "Discover all of my projects that I've done or been working on until now.",
   twitterImage: '/logo.png',
   twitterCard: 'summary'
 })
 
 useHead({
-  title: 'PandaDEV - Projects',
-  meta: [{
-    name: 'description', content: "Discover all of my projects that I've done or been working on until now."
-  }],
+  titleTemplate: "%siteName - %s",
   htmlAttrs: {
     lang: 'en'
   },

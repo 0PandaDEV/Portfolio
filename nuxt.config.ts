@@ -1,10 +1,9 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
-      title: "PandaDEV",
+      title: "Vleer",
       script:
         process.env.NODE_ENV === "production"
           ? [
@@ -17,9 +16,18 @@ export default defineNuxtConfig({
           : [],
     },
   },
-  devtools: { enabled: true },
-  modules: ["nuxt-simple-sitemap", "@nuxtjs/robots"],
+  modules: ["@nuxtseo/module"],
   site: {
-    url: "https://pandadev.tk",
+    url: "https://pandadev.net",
+    name: "PandaDEV",
+    description:
+      "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.",
+    defaultLocale: "en",
+    identity: {
+      type: "Person",
+    },
+    twitter: "@pandadev_",
+    trailingSlash: true,
   },
+  devtools: { enabled: true },
 });

@@ -4,7 +4,8 @@
     <div class="hero">
       <img src="/logo.png" alt="logo" class="mainlogo" />
       <p class="forword_outer">
-        <span class="forword">Hi, </span><span class="forword reveal_after_logo">I'm PandaDEV</span>
+        <span class="forword">Hi, </span
+        ><span class="forword reveal_after_logo">I'm PandaDEV</span>
       </p>
       <h1 class="h1">Building Minecraft plugins and webapps.</h1>
       <h2 class="h2">
@@ -12,9 +13,9 @@
         learning UI/UX Design.
       </h2>
       <div class="btn_container">
-        <nuxt-link to="/projects">
+        <SiteLink to="/projects">
           <div class="button">SEE MY WORK</div>
-        </nuxt-link>
+        </SiteLink>
       </div>
     </div>
   </div>
@@ -23,32 +24,34 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  ogTitle: 'PandaDEV',
-  ogDescription: "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.",
-  ogImage: '/logo.png',
-  ogUrl: 'https://pandadev.tk/projects',
-  twitterTitle: 'PandaDEV',
-  twitterDescription: "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.",
-  twitterImage: '/logo.png',
-  twitterCard: 'summary'
-})
+  title: "",
+  description:
+    "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.",
+  ogTitle: "PandaDEV",
+  ogDescription:
+    "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.",
+  ogImage: "/logo.png",
+  ogUrl: "https://pandadev.tk/projects",
+  twitterTitle: "PandaDEV",
+  twitterDescription:
+    "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.",
+  twitterImage: "/logo.png",
+  twitterCard: "summary",
+});
 
 useHead({
-  title: 'PandaDEV',
-  meta: [{
-    name: 'description', content: "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design."
-  }],
+  titleTemplate: "%siteName",
   htmlAttrs: {
-    lang: 'en'
+    lang: "en",
   },
   link: [
     {
-      rel: 'icon',
-      type: 'image/png',
-      href: '/logo.png'
-    }
-  ]
-})
+      rel: "icon",
+      type: "image/png",
+      href: "/logo.png",
+    },
+  ],
+});
 </script>
 
 <style>

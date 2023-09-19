@@ -39,21 +39,21 @@
           <span class="tag">Community</span>
         </div>
       </a>
-      <a class="bitwarden app" href="https://bitwarden.com" target="_blank">
+      <a class="protonpass app" href="https://proton.me/pass" target="_blank">
         <div class="img">
-          <img loading="lazy" class="logo" src="/bitwarden.png" />
+          <img loading="lazy" class="logo" src="/protonpass.svg" />
         </div>
-        <p class="name">Bitwarden</p>
+        <p class="name">Proton Pass</p>
         <div class="tags">
           <span class="tag">Password Manager</span>
           <span class="tag">Security</span>
         </div>
       </a>
-      <a class="vscode app" href="https://code.visualstudio.com/" target="_blank">
+      <a class="cursor app" href="https://cursor.sh/" target="_blank">
         <div class="img">
-          <img loading="lazy" class="logo" src="/vscode.png" />
+          <img loading="lazy" class="logo" src="/cursor.svg" />
         </div>
-        <p class="name">VS Code</p>
+        <p class="name">Cursor</p>
         <div class="tags">
           <span class="tag">Editor</span>
           <span class="tag">Development</span>
@@ -185,21 +185,20 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  ogTitle: 'PandaDEV',
+  title: "Stack",
+  description: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as a Java and Web developer.",
+  ogTitle: 'Stack',
   ogDescription: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as a Java and Web developer.",
   ogImage: '/logo.png',
-  ogUrl: 'https://pandadev.tk/projects',
-  twitterTitle: 'PandaDEV',
+  ogUrl: 'https://pandadev.tk/stack',
+  twitterTitle: 'Stack',
   twitterDescription: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as a Java and Web developer.",
   twitterImage: '/logo.png',
   twitterCard: 'summary'
 })
 
 useHead({
-  title: 'PandaDEV - Stack',
-  meta: [{
-    name: 'description', content: "Discover all the apps and tools I use to complete my tasks and create my daily workflow, as a Java and Web developer."
-  }],
+  titleTemplate: "%siteName - %s",
   htmlAttrs: {
     lang: 'en'
   },
