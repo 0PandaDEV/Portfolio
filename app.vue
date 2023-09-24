@@ -9,6 +9,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: Druk;
+  src: url("/druk.woff2");
+  font-display: swap;
+}
+
 * {
   margin: 0px;
   padding: 0px;
