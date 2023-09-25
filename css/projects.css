@@ -1,9 +1,9 @@
 .projects {
-  max-width: 900px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   gap: 16px;
+  align-items: center;
+  justify-content: center;
 }
 
 * {
@@ -12,36 +12,22 @@
 }
 
 .project {
-  background-color: hsl(270, 2%, 11%);
-  border: 1px solid rgba(49, 49, 49, 0.68);
-  border-radius: 14px;
-  padding: 24px 24px;
+  background-color: #1c1b1d;
+  border: 1px solid #1c1b1d;
+  border-radius: 24px;
+  padding: 24px;
+  height: 328px;
+  width: 300px;
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
-  width: auto;
   text-align: center;
   text-decoration: none !important;
-  flex-grow: 1;
-  flex-shrink: 1;
-  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out;
 }
 
-.projects .project:not(:hover) .project-img img.project-logo {
-  filter: grayscale(100%) brightness(70%);
-  transform: scale(1);
-  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.projects .project:hover {
-  filter: none;
-  transform: scale(1.03);
-  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.projects:not(:hover) .project .project-img img.project-logo {
-  filter: none;
-  transform: scale(1);
-  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+.project:hover{
+  border: 1px solid #ffffff17;
 }
 
 .project-tag {
@@ -56,33 +42,57 @@
   width: min-content;
 }
 
-.project-img {
-  width: 120px;
-  height: 120px;
+.project-logo {
+  width: 80px;
+  height: 80px;
   justify-content: center;
   display: flex;
-  left: 50%;
-  position: relative;
-  transform: translateX(-50%);
 }
 
-.project-logo {
-  width: 100%;
-  border-radius: 28px;
+.top{
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
 }
 
-.vleer{
-  border-radius: none !important;
+.text{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 8px;
 }
 
 .project-name {
-  margin-top: 20px;
   font-weight: 600;
-  font-size: 24px;
-  text-align: center;
+  font-size: 18px;
+}
+
+.project-description {
+  font-size: 16px;
+  color: #808080;
 }
 
 .description {
   font-size: 16px;
   margin-top: 16px;
+}
+
+#discontinued {
+  padding-inline: 20px;
+  width: min-content;
+  border-radius: 16px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: hsl(270, 4%, 15%);
+  color: rgba(255, 255, 255, 0.448);
+  transition: all 0.5s;
+  font-size: 16px;
+}
+
+@media (max-width: 450px) {
+  .project{
+    width: 100%;
+  }
 }
