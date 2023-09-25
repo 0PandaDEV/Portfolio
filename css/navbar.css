@@ -92,9 +92,12 @@
   transition: background-color 0.2s;
 }
 
+.nlIcon{
+  border-radius: 18px;
+}
+
 .nlIcon:hover {
   background-color: #2726299a;
-  border-radius: 18px;
   transition: background-color 0.2s;
 }
 
