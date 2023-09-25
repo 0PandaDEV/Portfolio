@@ -19,7 +19,7 @@
       </div>
     </div>
   </div>
-  <navbar />
+  <Navbar />
 </template>
 
 <script setup lang="ts">
