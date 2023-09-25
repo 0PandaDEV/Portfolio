@@ -1,7 +1,7 @@
 <template>
   <div id="content">
     <div id="header">
-      <h1 id="title">PROJECTS</h1>
+      <img src="/projects.svg" alt="projects" id="title">
       <p id="description">Here you can find some of my</p>
     </div>
     <slot />
@@ -11,8 +11,8 @@
 
 <style>
 @font-face {
-  font-family: Druk;
-  src: url("/druk.woff2");
+  font-family: Drukk;
+  src: url("/Druk.woff2");
   font-display: swap;
 }
 
@@ -35,10 +35,14 @@
 }
 
 #title {
-  font-size: 64px;
-  font-family: Druk !important;
-  -webkit-text-stroke: 1.5px rgba(112, 112, 112, 0.356); /* width and color of stroke */
+  /* font-size: 64px;
+  font-family: Drukk !important;
+  -webkit-text-stroke: 1.5px rgba(112, 112, 112, 0.357); */
   color: transparent;
+  width: 100%;
+  max-width: 529px;
+  user-select: none;
+  pointer-events: none;
 }
 
 #description {
@@ -47,5 +51,6 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  white-space: nowrap;
 }
 </style>
