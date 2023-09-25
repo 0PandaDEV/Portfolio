@@ -4,7 +4,7 @@
       <transition name="fade">
         <div class="hover-tag" v-show="isHovered">Home</div>
       </transition>
-      <SiteLink to="/" class="navLink">
+      <NuxtLink to="/" class="navLink" aria-label="home">
         <div class="icon-container">
           <svg
             viewBox="0 0 24 24"
@@ -27,7 +27,7 @@
             />
           </svg>
         </div>
-      </SiteLink>
+      </NuxtLink>
     </div>
     <div
       class="projects icon"
@@ -37,7 +37,7 @@
       <transition name="fade">
         <div class="hover-tag" v-show="isHovered">Projects</div>
       </transition>
-      <SiteLink to="/projects" class="navLink">
+      <NuxtLink to="/projects" class="navLink" aria-label="projects">
         <div class="icon-container">
           <svg
             viewBox="0 0 24 24"
@@ -74,7 +74,7 @@
             />
           </svg>
         </div>
-      </SiteLink>
+      </NuxtLink>
     </div>
     <div
       class="stack icon"
@@ -84,7 +84,7 @@
       <transition name="fade">
         <div class="hover-tag" v-show="isHovered">Stack</div>
       </transition>
-      <SiteLink to="/stack" class="navLink">
+      <NuxtLink to="/stack" class="navLink" aria-label="stack">
         <div class="icon-container">
           <svg
             viewBox="0 0 24 24"
@@ -101,7 +101,7 @@
             />
           </svg>
         </div>
-      </SiteLink>
+      </NuxtLink>
     </div>
     <div class="divider"></div>
     <div
@@ -112,7 +112,7 @@
       <transition name="fade">
         <div class="hover-tag" v-show="isHovered">Mail</div>
       </transition>
-      <a href="mailto:contact@pandadev.tk">
+      <a href="mailto:contact@pandadev.net" aria-label="mail">
         <div class="icon-container">
           <svg
             viewBox="0 0 24 24"
@@ -147,7 +147,7 @@
       <transition name="fade">
         <div class="hover-tag" v-show="isHovered">X</div>
       </transition>
-      <a target="_blank" href="https://x.com/PandaDEV_">
+      <a target="_blank" href="https://x.com/PandaDEV_" aria-label="twitter/x">
         <div class="icon-container">
           <svg
             viewBox="0 0 1000.77997 936.68994"
@@ -174,7 +174,7 @@
       <transition name="fade">
         <div class="hover-tag" v-show="isHovered">Github</div>
       </transition>
-      <a target="_blank" href="https://github.com/0PandaDEV/">
+      <a target="_blank" href="https://github.com/0PandaDEV/" aria-label="github">
         <div class="icon-container">
           <svg
             width="24"
@@ -200,7 +200,7 @@
       @mouseleave="hideHoverTag"
     >
       <div class="hover-tag" v-show="isHovered">Discord</div>
-      <a target="_blank" href="https://discord.gg/Y7SbYphVw9">
+      <a target="_blank" href="https://discord.gg/Y7SbYphVw9" aria-label="discord">
         <div class="icon-container">
           <svg
             width="624px"

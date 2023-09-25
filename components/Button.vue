@@ -1,5 +1,5 @@
 <template>
-  <a :href="url" id="button" target="_blank">
+  <a :href="url" class="project-button" target="_blank">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="18"
@@ -79,7 +79,7 @@ export default defineComponent({
 </script>
 
 <style>
-#button {
+.project-button {
   padding-inline: 20px;
   width: min-content;
   border-radius: 16px;
@@ -98,7 +98,7 @@ export default defineComponent({
   transition: all 0.5s;
 }
 
-#button:hover {
+.project-button:hover {
   background-color: white;
   color: black;
   box-shadow: 0 5px 50px rgba(255, 255, 255, 0.264);
@@ -109,11 +109,11 @@ export default defineComponent({
   transition: all 0.5s;
 }
 
-#button:hover #text {
+.project-button:hover #text {
   color: black;
 }
 
-#button:hover .icon {
+.project-button:hover .icon {
   stroke: black;
 }
 </style>

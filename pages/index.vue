@@ -13,9 +13,9 @@
         learning UI/UX Design.
       </h2>
       <div class="btn_container">
-        <SiteLink to="/projects">
+        <NuxtLink to="/projects">
           <div class="button">SEE MY WORK</div>
-        </SiteLink>
+        </NuxtLink>
       </div>
     </div>
   </div>
@@ -24,7 +24,7 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: "",
+  title: "PandaDEV",
   description:
     "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.",
   ogTitle: "PandaDEV",
@@ -40,7 +40,6 @@ useSeoMeta({
 });
 
 useHead({
-  titleTemplate: "%siteName",
   htmlAttrs: {
     lang: "en",
   },

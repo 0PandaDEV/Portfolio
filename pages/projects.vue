@@ -3,7 +3,7 @@
     <div class="projects">
       <div class="project">
         <div class="top">
-          <img class="project-logo" loading="lazy" src="/nextron.svg" />
+          <img class="project-logo" loading="lazy" src="/nextron.svg" alt="nextron" />
           <div class="text">
             <p class="project-name">Nextron</p>
             <p class="project-description">
@@ -18,7 +18,7 @@
       </div>
       <div class="project">
         <div class="top">
-          <img class="project-logo vleer" loading="lazy" src="/vleer.png" />
+          <img class="project-logo vleer" loading="lazy" src="/vleer.png" alt="vleer" />
           <div class="text">
             <p class="project-name">Vleer</p>
             <p class="project-description">
@@ -33,7 +33,7 @@
       </div>
       <div class="project">
         <div class="top">
-          <img class="project-logo vleer" loading="lazy" src="/sp2w.svg" />
+          <img class="project-logo vleer" loading="lazy" src="/sp2w.svg" alt="sp2w"/>
           <div class="text">
             <p class="project-name">Stop Pay2Win</p>
             <p class="project-description">
@@ -48,7 +48,7 @@
       </div>
       <div class="project">
         <div class="top">
-          <img class="project-logo" loading="lazy" src="/actioninfo.svg" />
+          <img class="project-logo" loading="lazy" src="/actioninfo.svg" alt="actioninfo"/>
           <div class="text">
             <p class="project-name">ActionInfo</p>
             <p class="project-description">
@@ -64,7 +64,7 @@
       </div>
       <div class="project">
         <div class="top">
-          <img class="project-logo" loading="lazy" src="/sharedbackpacks.svg" />
+          <img class="project-logo" loading="lazy" src="/sharedbackpacks.svg" alt="sharedbackpacks" />
           <div class="text">
             <p class="project-name">Shared Backpacks</p>
             <p class="project-description">
@@ -79,7 +79,7 @@
       </div>
       <div class="project">
         <div class="top">
-          <img class="project-logo" loading="lazy" src="/better.svg" />
+          <img class="project-logo" loading="lazy" src="/better.svg" alt="betterpacks" />
           <div class="text">
             <p class="project-name">Better Packs</p>
             <p class="project-description">
@@ -95,7 +95,7 @@
       </div>
       <div class="project-6 project">
         <div class="top">
-          <img class="project-logo" loading="lazy" src="/pandaclient.svg" />
+          <img class="project-logo" loading="lazy" src="/pandaclient.svg" alt="pandaclient"/>
           <div class="text">
             <p class="project-name">Panda Client</p>
             <p class="project-description">A minecraft PVP client for 1.8.9</p>
@@ -109,23 +109,22 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: "Projects",
+  title: "PandaDEV - Projects",
   description:
-    "Discover all of my projects that I've done or been working on until now.",
+    "Here you can find some of my Projects",
   ogTitle: "Projects",
   ogDescription:
-    "Discover all of my projects that I've done or been working on until now.",
+    "Here you can find some of my Projects",
   ogImage: "/logo.png",
   ogUrl: "https://pandadev.tk/projects",
   twitterTitle: "Projects",
   twitterDescription:
-    "Discover all of my projects that I've done or been working on until now.",
+    "Here you can find some of my Projects",
   twitterImage: "/logo.png",
   twitterCard: "summary",
 });
 
 useHead({
-  titleTemplate: "%siteName - %s",
   htmlAttrs: {
     lang: "en",
   },

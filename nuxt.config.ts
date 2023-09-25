@@ -16,18 +16,12 @@ export default defineNuxtConfig({
           : [],
     },
   },
-  modules: ["@nuxtseo/module"],
   site: {
     url: "https://pandadev.net",
-    name: "PandaDEV",
-    description:
-      "I'm a Developer specialized in java and web development. Also, I'm learning UI/UX Design.",
-    defaultLocale: "en",
-    identity: {
-      type: "Person",
-    },
-    twitter: "@pandadev_",
-    trailingSlash: true,
+  },
+  modules: ["nuxt-simple-sitemap", "@unlighthouse/nuxt", "@nuxtjs/robots"],
+  scanner: {
+    device: "desktop"
   },
   devtools: { enabled: true },
 });
