@@ -11,10 +11,7 @@
             </p>
           </div>
         </div>
-        <Button
-          url="https://essentialsp.tk"
-          icon="website"
-        ></Button>
+        <Button url="https://essentialsp.tk" icon="website"></Button>
       </div>
       <div class="project">
         <div class="top">
@@ -26,14 +23,11 @@
             </p>
           </div>
         </div>
-        <Button
-          url="https://vleer.app"
-          icon="website"
-        ></Button>
+        <Button url="https://vleer.app" icon="website"></Button>
       </div>
       <div class="project">
         <div class="top">
-          <img class="project-logo vleer" loading="lazy" src="/sp2w.svg" alt="sp2w"/>
+          <img class="project-logo vleer" loading="lazy" src="/sp2w.svg" alt="sp2w" />
           <div class="text">
             <p class="project-name">Stop Pay2Win</p>
             <p class="project-description">
@@ -41,14 +35,11 @@
             </p>
           </div>
         </div>
-        <Button
-          url="https://modrinth.com/mod/stopp2w"
-          icon="website"
-        ></Button>
+        <Button url="https://modrinth.com/mod/stopp2w" icon="website"></Button>
       </div>
       <div class="project">
         <div class="top">
-          <img class="project-logo" loading="lazy" src="/actioninfo.svg" alt="actioninfo"/>
+          <img class="project-logo" loading="lazy" src="/actioninfo.svg" alt="actioninfo" />
           <div class="text">
             <p class="project-name">ActionInfo</p>
             <p class="project-description">
@@ -57,10 +48,19 @@
             </p>
           </div>
         </div>
-        <Button
-          url="https://github.com/0pandadev/ActionInfo"
-          icon="github"
-        ></Button>
+        <Button url="https://github.com/0pandadev/ActionInfo" icon="github"></Button>
+      </div>
+      <div class="project">
+        <div class="top">
+          <img class="project-logo" loading="lazy" src="/rplacech.png" alt="actioninfo" />
+          <div class="text">
+            <p class="project-name">r/placeCH</p>
+            <p class="project-description">
+              The web interface for the swiss discord community of the event r/place 
+            </p>
+          </div>
+        </div>
+        <Button url="https://discord.gg/r-placech-1087745702156841040" icon="discord"></Button>
       </div>
       <div class="project">
         <div class="top">
@@ -72,10 +72,7 @@
             </p>
           </div>
         </div>
-        <Button
-          url="https://github.com/0pandadev/SharedBackpacks"
-          icon="github"
-        ></Button>
+        <Button url="https://github.com/0pandadev/SharedBackpacks" icon="github"></Button>
       </div>
       <div class="project">
         <div class="top">
@@ -88,14 +85,11 @@
             </p>
           </div>
         </div>
-        <Button
-          url="https://modrinth.com/user/PandaDEV"
-          icon="website"
-        ></Button>
+        <Button url="https://modrinth.com/user/PandaDEV" icon="website"></Button>
       </div>
       <div class="project-6 project">
         <div class="top">
-          <img class="project-logo" loading="lazy" src="/pandaclient.svg" alt="pandaclient"/>
+          <img class="project-logo" loading="lazy" src="/pandaclient.svg" alt="pandaclient" />
           <div class="text">
             <p class="project-name">Panda Client</p>
             <p class="project-description">A minecraft PVP client for 1.8.9</p>
