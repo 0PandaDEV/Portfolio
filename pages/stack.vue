@@ -1,10 +1,9 @@
 <template>
-  <div class="content">
-    <div class="header">
-      <h1 class="title">Stack</h1>
-      <p class="description">
-        Discover all the apps and tools I use to complete my tasks and create my
-        daily workflow, as a Java and Web developer.
+  <div id="content">
+    <div id="header">
+      <img src="/stack.svg" alt="stack" id="title">
+      <p id="description">
+        See what i have in my tech
       </p>
     </div>
 
