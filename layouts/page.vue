@@ -53,4 +53,16 @@
   transform: translateX(-50%);
   white-space: nowrap;
 }
+
+@media (max-width: 577px) {
+  #header{
+    height: calc((100vw - 48px) / 6.3);
+  }
+}
+
+@media (min-width: 577px) {
+  #header{
+    height: 84px;
+  }
+}
 </style>

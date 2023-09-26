@@ -1,6 +1,6 @@
 <template>
   <div id="content">
-    <div id="header">
+    <div id="stack-header">
       <img src="/stack.svg" alt="stack" id="title">
       <p id="description">
         See what i have in my tech

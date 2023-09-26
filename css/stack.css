@@ -8,7 +8,7 @@
 }
 
 .apps {
-  max-width: 900px;
+  max-width: 1000px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -97,15 +97,15 @@ img.logo {
 
 #content {
   user-select: none;
-  display: flex;
   max-width: 1296px;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 48px 24px;
   flex-direction: column;
 }
 
-#header {
+#stack-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -120,4 +120,16 @@ img.logo {
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
+}
+
+@media (max-width: 323px) {
+  #stack-header {
+    height: calc((100vw - 48px) / 3.8455);
+  }
+}
+
+@media (min-width: 323px) {
+  #stack-header {
+    height: 84px;
+  }
 }
