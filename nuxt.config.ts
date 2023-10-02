@@ -19,9 +19,6 @@ export default defineNuxtConfig({
   site: {
     url: "https://pandadev.net",
   },
-  modules: ["nuxt-simple-sitemap", "@unlighthouse/nuxt", "@nuxtjs/robots"],
-  scanner: {
-    device: "desktop"
-  },
+  modules: ["nuxt-simple-sitemap", "@nuxtjs/robots"],
   devtools: { enabled: true },
 });

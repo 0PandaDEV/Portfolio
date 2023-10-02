@@ -2,7 +2,7 @@
   <div class="bg"></div>
   <div class="center">
     <div class="hero">
-      <img src="/logo.png" alt="logo" class="mainlogo" />
+      <img src="/logo.png" alt="logo" class="mainlogo" loading="lazy" />
       <p class="forword_outer">
         <span class="forword">Hi, </span
         ><span class="forword reveal_after_logo">I'm PandaDEV</span>
