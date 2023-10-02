@@ -45,6 +45,10 @@ useHead({
   },
   link: [
     {
+      rel: 'canonical',
+      href: 'https://pandadev.net',
+    },
+    {
       rel: "icon",
       type: "image/png",
       href: "/logo.png",
