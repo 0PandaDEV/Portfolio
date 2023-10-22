@@ -29,6 +29,7 @@
   width: clamp(46px, 8.3vw, 52px);
   height: clamp(46px, 8.3vw, 52px);
   padding: 13px 13px;
+  position: relative;
 }
 
 .icon-container svg {
@@ -40,7 +41,7 @@
   opacity: 0;
   text-align: center;
   position: absolute;
-  top: -20px;
+  top: -30px;
   z-index: 10;
   background-color: white;
   color: #171618;
@@ -49,35 +50,13 @@
   padding-inline: 6px;
   font-weight: 500;
   transition: all 0.3s;
-}
-
-.discord .hover-tag {
-  transform: translateX(-10px);
-}
-
-.github .hover-tag {
-  transform: translateX(-7px);
-}
-
-.x .hover-tag {
-  transform: translateX(14px);
-}
-
-.email .hover-tag {
-  transform: translateX(4px);
-}
-
-.projects .hover-tag {
-  transform: translateX(-12px);
-}
-
-.home .hover-tag {
-  transform: translateX(-5px);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .icon:hover .hover-tag {
   opacity: 1;
-  top: -30px;
+  top: -40px;
 }
 
 .router-link-active > .icon-container {
