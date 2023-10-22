@@ -25,11 +25,14 @@
   height: 40px;
 }
 
+.icon {
+  position: relative;
+}
+
 .icon-container {
   width: clamp(46px, 8.3vw, 52px);
   height: clamp(46px, 8.3vw, 52px);
   padding: 13px 13px;
-  position: relative;
 }
 
 .icon-container svg {
