@@ -133,3 +133,8 @@ img.logo {
     height: 84px;
   }
 }
+
+a{
+  text-decoration: none;
+  color: white;
+}
