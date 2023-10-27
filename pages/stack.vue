@@ -38,11 +38,11 @@
           <span class="tag">Community</span>
         </div>
       </a>
-      <a class="protonpass app" href="https://proton.me/pass" target="_blank" aria-label="protonpass">
+      <a class="bitwarden app" href="https://bitwarden.com/" target="_blank" aria-label="protonpass">
         <div class="img">
-          <img loading="lazy" class="logo" src="/protonpass.svg" alt="protonpass"/>
+          <img loading="lazy" class="logo" src="/bitwarden.png" alt="protonpass"/>
         </div>
-        <p class="name">Proton Pass</p>
+        <p class="name">Bitwarden</p>
         <div class="tags">
           <span class="tag">Password Manager</span>
           <span class="tag">Security</span>
@@ -106,11 +106,11 @@
           <span class="tag">Development</span>
         </div>
       </a>
-      <a class="warp app" href="https://www.warp.dev/" target="_blank" aria-label="warp">
+      <a class="tabby app" href="https://tabby.sh/" target="_blank" aria-label="warp">
         <div class="img">
-          <img loading="lazy" class="logo" src="/warp.png" alt="warp"/>
+          <img loading="lazy" class="logo" src="/tabby.svg" alt="warp"/>
         </div>
-        <p class="name">Warp</p>
+        <p class="name">Tabby</p>
         <div class="tags">
           <span class="tag">Terminal</span>
           <span class="tag">Development</span>
