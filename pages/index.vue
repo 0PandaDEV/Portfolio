@@ -7,7 +7,7 @@
         <span class="forword">Hi, </span
         ><span class="forword reveal_after_logo">I'm PandaDEV</span>
       </p>
-      <h1 class="h1">Building Minecraft plugins and webapps.</h1>
+      <h1 class="h1">Building Minecraft plugins and websites.</h1>
       <h2 class="h2">
         I'm a Developer specialized in Java and Web development. I'm also
         learning UI/UX Design.
