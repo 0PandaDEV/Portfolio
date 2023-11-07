@@ -4,7 +4,7 @@ export default defineNuxtConfig({
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       title: "Vleer",
-      script:
+      script: [
         process.env.NODE_ENV === "production"
           ? [
               {
@@ -14,6 +14,12 @@ export default defineNuxtConfig({
               },
             ]
           : [],
+        {
+          src: "https://plausible.pandadev.net/js/script.js",
+          defer: true,
+          "data-domain": "pandadev.net",
+        },
+      ],
     },
   },
   site: {
@@ -21,4 +27,7 @@ export default defineNuxtConfig({
   },
   modules: ["nuxt-simple-sitemap", "@nuxtjs/robots"],
   devtools: { enabled: true },
+  devServer: {
+    port: 443,
+  },
 });
