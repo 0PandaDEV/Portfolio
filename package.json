@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "1.0.0",
-    "@types/node": "^20.8.9",
-    "nuxt": "^3.8.0"
+    "@types/node": "^20.8.10",
+    "nuxt": "^3.8.1"
   },
   "dependencies": {
     "@nuxtjs/robots": "^3.0.0",
