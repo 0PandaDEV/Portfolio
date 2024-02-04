@@ -14,7 +14,7 @@
       </h2>
       <div class="btn_container">
         <NuxtLink to="/projects">
-          <div class="button">SEE MY WORK</div>
+          <div class="button plausible-event-name=See+my+work">SEE MY WORK</div>
         </NuxtLink>
       </div>
     </div>
