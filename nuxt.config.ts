@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         process.env.NODE_ENV === "production"
           ? [
               {
-                src: "https://plausible.pandadev.net/js/script.js",
+                src: "https://plausible.pandadev.net/js/script.tagged-events.outbound-links.js",
                 defer: true,
                 "data-domain": "pandadev.net",
               },
