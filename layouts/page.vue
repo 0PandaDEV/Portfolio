@@ -10,12 +10,6 @@
 </template>
 
 <style>
-@font-face {
-  font-family: Drukk;
-  src: url("/Druk.woff2");
-  font-display: swap;
-}
-
 #content {
   user-select: none;
   display: flex;
